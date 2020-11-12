@@ -1,8 +1,11 @@
 .nav-color , a{
-    background-color: #29aae3;
+    /*background-color: #fdfdfd;*/
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
-    opacity: 0.999999;
+    opacity: 0.98;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
     
 }
 
@@ -12,7 +15,6 @@
     /*background-color: #4156e3;*/
     /* Full height */
     height: 100%;
-    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +71,7 @@ ul,li {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
- 
+
 .mt-l{
     margin:8%;
 }
@@ -92,4 +94,10 @@ h2,h3,h4,h5{
 h1{
     font-size: 3.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.carousel{
+    width: 100%; 
+    margin-top: -7%;
+    z-index: -1;
 }

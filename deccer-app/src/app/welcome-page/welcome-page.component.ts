@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { CarouselNavigation} from '../carousel-navigation/carousel-navigation.component'
 
 @Component({
   selector: 'app-welcome-page',

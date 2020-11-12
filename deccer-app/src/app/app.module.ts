@@ -18,11 +18,13 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
+import { CarouselNavigationComponent } from './carousel-navigation/carousel-navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    CarouselNavigationComponent
   ],
   imports: [
     BrowserModule,
