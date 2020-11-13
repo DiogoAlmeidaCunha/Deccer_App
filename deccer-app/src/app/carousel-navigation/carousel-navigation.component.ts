@@ -9,7 +9,16 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarouselNavigationComponent implements OnInit {
 
-  images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  img1 = 'file:///C:/Users/DiogoCunha/Documents/GitHub/Deccer_App/deccer-app/src/images/bg1.jpg';
+  img2 =  "C:\Users\DiogoCunha\Documents\GitHub\Deccer_App\deccer-app\src\images\bg1.jpg";
+  img3 = "C:\Users\DiogoCunha\Documents\GitHub\Deccer_App\deccer-app\src\images\bg1.jpg";
+  IMG = [this.img1,this.img2,this.img3];
+  
+  images = ['https://picsum.photos/id/700/900/500', 
+  'https://picsum.photos/id/700/900/500',
+  'https://picsum.photos/id/700/900/500'];
+
+  //images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
