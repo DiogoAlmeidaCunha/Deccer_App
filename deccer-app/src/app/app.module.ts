@@ -19,12 +19,14 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { CarouselNavigationComponent } from './carousel-navigation/carousel-navigation.component';
+import { CompServicoComponent } from './components/comp-servico/comp-servico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomePageComponent,
-    CarouselNavigationComponent
+    CarouselNavigationComponent,
+    CompServicoComponent
   ],
   imports: [
     BrowserModule,

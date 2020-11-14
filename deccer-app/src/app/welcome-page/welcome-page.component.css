@@ -9,6 +9,13 @@
     
 }
 
+.nav-logo{
+    width: 34%;
+    height: 34%;
+    margin-right: none;
+    margin-top: 0%;
+    padding-top: 3%;
+}
 .bg {
     /* The image used */
     background-image: url("../../images/bg2.jpg");
@@ -96,8 +103,16 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.h6{
+    font-size: 1.1em;
+    color: #29aae3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
 .carousel{
     width: 100%; 
     margin-top: -7%;
     z-index: -1;
 }
+

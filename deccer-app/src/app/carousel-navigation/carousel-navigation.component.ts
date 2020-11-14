@@ -16,7 +16,7 @@ export class CarouselNavigationComponent implements OnInit {
   
   images = ['https://wallpaperaccess.com/full/528462.jpg', 
   'https://vistapointe.net/images/architecture-2.jpg',
-  'https://www.itl.cat/pngfile/big/165-1658583_black-and-white-city-building-house-hd-grayscale.jpg'];
+  'https://images4.alphacoders.com/833/833515.jpg'];
 
   //images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
