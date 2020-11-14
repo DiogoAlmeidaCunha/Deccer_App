@@ -44,7 +44,7 @@ ul,li {
 .bg4{
     /* The image used */
     /*background-image: url("../../images/bg4.jpg");*/
-    background-color: #29aae3;
+    background-color: #181a1b;
     /* Full height */
     height: 100%;
     
@@ -65,7 +65,7 @@ ul,li {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-
+ /* 29aae3 */
 
 .btn-orc{
     padding: 1%;
@@ -116,3 +116,12 @@ h1{
     z-index: -1;
 }
 
+@media (max-width: 780px) { 
+    .navbar{
+        display:none;
+    }
+    .carousel{
+        width: 100%;
+        height: 440%;
+    }
+}

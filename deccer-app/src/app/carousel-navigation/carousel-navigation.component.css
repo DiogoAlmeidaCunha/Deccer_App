@@ -23,6 +23,22 @@ p{
     font-size: 1.1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+@media (max-width:760px) and (min-width:300px) { 
+    .navbar{
+        display:none;
+    }
+    .bg{
+        width: 900px;
+        height: 840px;
+    }
+    h1,h3{font-size: 1.8em;}
+    .carousel-caption{
+        margin-bottom: 55%;
+    }
+    
+}
+
 button{
     padding: 2.4%;
     margin-bottom: 27%;
