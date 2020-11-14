@@ -14,15 +14,15 @@ export class CarouselNavigationComponent implements OnInit {
   img3 = "C:\Users\DiogoCunha\Documents\GitHub\Deccer_App\deccer-app\src\images\bg1.jpg";
   IMG = [this.img1,this.img2,this.img3];
   
-  images = ['https://picsum.photos/id/700/900/500', 
-  'https://picsum.photos/id/700/900/500',
-  'https://picsum.photos/id/700/900/500'];
+  images = ['https://wallpaperaccess.com/full/528462.jpg', 
+  'https://vistapointe.net/images/architecture-2.jpg',
+  'https://www.itl.cat/pngfile/big/165-1658583_black-and-white-city-building-house-hd-grayscale.jpg'];
 
   //images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
-    config.interval = 4000;
+    config.interval = 5000;
     config.wrap = true;
     config.keyboard = true;
     config.pauseOnHover = true;
