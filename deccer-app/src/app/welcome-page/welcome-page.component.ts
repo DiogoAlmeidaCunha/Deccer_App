@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomePageComponent implements OnInit {
 
+  //attr = ['s1','s2','s3'];
+
   constructor() { }
 
   ngOnInit(): void {

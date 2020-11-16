@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-comp-servico',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompServicoComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
+    //var someElement= document.getElementById("servico").id=""
+    
+    console.log()
   }
 
 }
