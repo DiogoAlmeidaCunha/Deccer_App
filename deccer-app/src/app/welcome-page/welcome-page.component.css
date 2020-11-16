@@ -43,7 +43,7 @@ ul,li {
 
 .bg4{
     /* The image used */
-    /*background-image: url("../../images/bg4.jpg");*/
+    background-image: url("../../assets/p33.jpg");
     background-color: #181a1b;
     /* Full height */
     height: 100%;
@@ -67,17 +67,6 @@ ul,li {
 }
  /* 29aae3 */
 
-.btn-orc{
-    padding: 1%;
-    padding-right:10%;
-    padding-left: 10%;
-    border-radius: 5%;
-    margin: 3%;
-    background-color: #29aae3;
-    border-style: solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 .mt-l{
     margin:8%;
@@ -90,6 +79,8 @@ ul,li {
     padding-bottom: 8%;
 }
 h2,h3,h4,h5{
+    counter-reset: white;
+    font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -98,14 +89,27 @@ h2,h3,h4,h5{
 
 }
 
-h1{
-    font-size: 3.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.h1{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1-w{
+    font-size: 3.0vw;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .h6{
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #29aae3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.text-white{
+    color: white;
+    padding-top: 1%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
@@ -126,45 +130,29 @@ h1{
     }
 }
 
-
-
-.s1{
-    background-image: url("../../assets/s1b.jpg");
-}
-
-.s2{
-    background-image: url("../../assets/s2.jpg");
-}
-
-.s3{
-    background-image: url("../../assets/s3b.jpg");
-}
-.comp-servico{
-    border-style: black;
-    
-    height: 330px;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+button{
+    padding: 2.4%;
+    margin-bottom: 2%;
+    background-color: transparent;
     color: white;
-    font-size: 1.7em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.comp-servico:hover{
-    transition:1s;
-    opacity: 0.60;
-}
-
-a{
-    text-decoration: none;
-    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    opacity:0.78;
+    font-family: monospace;
     transition: 1s;
 }
 
-a:hover{
-    text-decoration: none;
+button:hover{
+    transition:1s;
+    border-color: #29aae3;
+    background-color: #29aae3;;
+    opacity: 0.60;
+    font-size: 1.4em;
     color: white;
-    font-size: 1.24em;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
 }

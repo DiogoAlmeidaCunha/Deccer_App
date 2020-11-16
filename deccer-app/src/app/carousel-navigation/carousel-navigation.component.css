@@ -50,3 +50,9 @@ button{
     opacity:0.78;
     font-family: monospace
 }
+
+button:hover{
+    transition:1s;
+    opacity: 0.80;
+    font-size: 3em;
+}

@@ -1,6 +1,6 @@
 
 .s1{
-    background-image: url("../../../assets/s2.jpg");
+    background-image: url("../../../assets/s1b.jpg");
 }
 
 .s2{
@@ -8,7 +8,7 @@
 }
 
 .s3{
-    background-image: url("../../../assets/s2.jpg");
+    background-image: url("../../../assets/s3b.jpg");
 }
 .comp-servico{
     border-style: black;
@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -36,6 +36,13 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: white;
+    color:  #29aae3;
     font-size: 1.24em;
+}
+
+.h6{
+    font-size: 1.3em;
+    color: #29aae3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
 }
