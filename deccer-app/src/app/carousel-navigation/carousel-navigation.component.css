@@ -5,7 +5,7 @@
     /* Full height */
     max-height: 50%;
     width: 100%;
-    
+    -ms-background-size: cover;   -o-background-size: cover;   -moz-background-size: cover;   -webkit-background-size: cover;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +48,14 @@ button{
     border-style: solid;
     border-width: thin;
     opacity:0.78;
-    font-family: monospace
+    font-family: monospace;
+    z-index:100;
+    animation: rotation 2s infinite linear;
+
+}
+
+a{
+    color: white;
 }
 
 button:hover{

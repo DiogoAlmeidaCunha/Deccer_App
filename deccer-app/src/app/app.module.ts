@@ -20,13 +20,17 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { CarouselNavigationComponent } from './carousel-navigation/carousel-navigation.component';
 import { CompServicoComponent } from './components/comp-servico/comp-servico.component';
+import { OrcamentoPageComponent } from './orcamento-page/orcamento-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomePageComponent,
     CarouselNavigationComponent,
-    CompServicoComponent
+    CompServicoComponent,
+    OrcamentoPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

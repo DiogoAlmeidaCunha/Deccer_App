@@ -1,0 +1,50 @@
+
+h3,h4,h5{
+    color:#29aae3;
+    font-weight: bold;
+}
+
+a,li{
+    text-decoration: none;
+    color: white;
+    margin-top:5%;
+    margin-bottom: 5%;
+    transition: 0.14s;
+    font-size: 100%;
+}
+
+li:hover {
+    font-size: 120%;
+    transition: 0.14s;
+}
+
+.footer-copyright{
+    margin-top: 10%;
+    background-color: #0f0f0f;
+}
+
+button{
+    margin-top:2%;
+    padding: 2.4%;
+    margin-bottom: 2%;
+    background-color: #29aae3;
+    color: white;
+    border-style: none;
+    border-width: thin;
+    opacity:0.78;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
+    transition: 1s;
+}
+
+p,h1,h3,li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+button:hover{
+    transition:1s;
+    border-color: #29aae3;
+    background-color: #29aae3;;
+    opacity: 0.60;
+    font-size: 1.3em;
+    color: white;
+}

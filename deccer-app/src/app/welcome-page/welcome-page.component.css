@@ -141,16 +141,33 @@ button{
     opacity:0.78;
     font-family: monospace;
     transition: 1s;
+
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
 
 button:hover{
     transition:1s;
     border-color: #29aae3;
     background-color: #29aae3;;
     opacity: 0.60;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: white;
+
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
 }
+a{
+    text-decoration: none;
+}
+
 
 img{
     max-height: 100%;
