@@ -130,6 +130,28 @@ h2,h3,h4,h5{
     }
 }
 
+.open-trans{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    
+    animation: createBox 1.5s;
+    
+}
+
+@keyframes createBox {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+    }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 button{
     padding: 2.4%;
     margin-bottom: 2%;
@@ -141,14 +163,9 @@ button{
     opacity:0.78;
     font-family: monospace;
     transition: 1s;
-
-    overflow: hidden;
-    transition-duration: 0.8s;
-    transition-property: transform;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+   
+
 
 
 

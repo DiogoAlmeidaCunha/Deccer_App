@@ -9,12 +9,9 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarouselNavigationComponent implements OnInit {
 
-  img1 = 'file:///C:/Users/DiogoCunha/Documents/GitHub/Deccer_App/deccer-app/src/images/bg1.jpg';
-  img2 =  "C:\Users\DiogoCunha\Documents\GitHub\Deccer_App\deccer-app\src\images\bg1.jpg";
-  img3 = "C:\Users\DiogoCunha\Documents\GitHub\Deccer_App\deccer-app\src\images\bg1.jpg";
-  IMG = [this.img1,this.img2,this.img3];
+ 
   
-  images = ['https://images4.alphacoders.com/833/833515.jpg',
+  images = ['../../assets/bg_1.JPG',
     'https://vistapointe.net/images/architecture-2.jpg', 
   'https://images7.alphacoders.com/927/927657.jpg'
   ];

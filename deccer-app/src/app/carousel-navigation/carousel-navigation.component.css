@@ -50,8 +50,25 @@ button{
     opacity:0.78;
     font-family: monospace;
     z-index:100;
-    animation: rotation 2s infinite linear;
+    
+    
+}
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    
+    animation: createBox 2s;
+    
+}
 
+@keyframes createBox {
+        from {
+          transform: scale(0.60);
+        }
+        to {
+          transform: scale(1);
+    }
 }
 
 a{
