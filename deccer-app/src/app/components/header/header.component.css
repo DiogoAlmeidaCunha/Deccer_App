@@ -1,24 +1,18 @@
 
-.bg {
-    /* The image used */
-    background-image: url("../../assets/bg4.jpg");
-    /*background-color: #4156e3;*/
-    
-    margin-top: 0%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+header{
+    background-color: white;
 }
 
 .nav-color , a{
     /*background-color: #fdfdfd;*/
-    color: white;
+    color: #29aae3;
+    font-weight: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
     opacity: 0.98;
     z-index: 1;
     padding-left: 5%;
     padding-right: 5%;
+    
     
 }
 

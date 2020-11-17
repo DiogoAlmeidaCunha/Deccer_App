@@ -22,6 +22,7 @@ import { CarouselNavigationComponent } from './carousel-navigation/carousel-navi
 import { CompServicoComponent } from './components/comp-servico/comp-servico.component';
 import { OrcamentoPageComponent } from './orcamento-page/orcamento-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CarouselNavigationComponent,
     CompServicoComponent,
     OrcamentoPageComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
