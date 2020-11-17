@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg4.jpg");
+    background-image: url("../../assets/bg4dark.jpg");
     /*background-color: #4156e3;*/
     
     margin-top: 0%;
@@ -36,4 +36,75 @@ ul,li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     padding-top: 4%;
     font-size: 15px;
+}
+
+h1{
+    font-size: 4.44vw;
+    color:#29aae3;
+}
+
+.list{
+    font-size: 1.5vw;
+    color: rgb(46, 46, 46);
+    font-family:  sans-serif
+}
+
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    animation: createBox 2s;
+}
+
+@keyframes createBox {
+        from {
+          transform: scale(0.60);
+        }
+        to {
+          transform: scale(1);
+    }
+}
+
+.slide {
+    right: -3000px;
+    -webkit-animation: slide 0.2s forwards;
+    -webkit-animation-delay: 0.9s;
+    animation: slide 1s forwards;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right:0; }
+}
+
+.pt-8{
+    padding-top:8%;
+}
+
+button{
+    margin-top:0%;
+
+    padding: 2.4%;
+    margin-bottom: 2%;
+    background-color: #29aae3;
+    color: white;
+    border-style: none;
+    border-width: thin;
+    opacity:0.78;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
+    transition: 1s;
+}
+
+
+button:hover{
+    transition:1s;
+    border-color: #29aae3;
+    background-color: #29aae3;;
+    opacity: 0.60;
+    font-size: 1.3em;
+    color: white;
 }

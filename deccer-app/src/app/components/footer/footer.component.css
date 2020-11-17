@@ -36,6 +36,10 @@ button{
     transition: 1s;
 }
 
+.p-l{
+    padding-left:10%;
+}
+
 p,h1,h3,li{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
