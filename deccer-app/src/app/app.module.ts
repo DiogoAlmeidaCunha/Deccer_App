@@ -23,6 +23,9 @@ import { CompServicoComponent } from './components/comp-servico/comp-servico.com
 import { OrcamentoPageComponent } from './orcamento-page/orcamento-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ServicoComponent } from './servico/servico.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,9 @@ import { HeaderComponent } from './components/header/header.component';
     CompServicoComponent,
     OrcamentoPageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ServicoComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -51,7 +56,9 @@ import { HeaderComponent } from './components/header/header.component';
     MatListModule,
     MatGridListModule,
     MatMenuModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule 
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

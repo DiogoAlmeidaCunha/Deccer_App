@@ -85,6 +85,11 @@ h1{
     padding-top:8%;
 }
 
+.mb-l{
+    margin-bottom: 6%;
+}
+
+
 button{
     margin-top:0%;
 
@@ -99,6 +104,10 @@ button{
     transition: 1s;
 }
 
+h2{
+    color:white;
+    margin-top:14%;
+}
 
 button:hover{
     transition:1s;
@@ -107,4 +116,66 @@ button:hover{
     opacity: 0.60;
     font-size: 1.3em;
     color: white;
+}
+
+.box-white{
+    background-color: white; opacity: 0.7;
+}
+
+.box-black{
+    background-color: black; opacity: 0.88;
+    box-shadow: 5px 10px #29aae3;
+
+  
+
+    animation: flip;
+}
+
+
+  
+.flipper1 {
+-webkit-animation-name: flip;
+        animation-name: flip;
+-webkit-animation-duration: 1.6s;
+        animation-duration: 1.6s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+}
+
+.flipper2 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.7s;
+            animation-delay: 3.7s;
+    }
+
+.flipper3 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.8s;
+            animation-delay: 4.8s;
+    }
+
+@-webkit-keyframes flip {
+    from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+  }
+  
+@keyframes flip {
+from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+}
+
+.box-black:hover{
+    background-color: #29aae3;
 }

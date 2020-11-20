@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-orcamento-page',
@@ -7,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrcamentoPageComponent implements OnInit {
 
+  faCoffee = faCoffee;
+
+  
   constructor() { }
 
   ngOnInit(): void {
