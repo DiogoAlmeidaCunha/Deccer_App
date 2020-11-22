@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  instagram(){
+    window.open("https://www.instagram.com/deccer_porto");
+  }
+
   constructor() { }
 
   ngOnInit(): void {
