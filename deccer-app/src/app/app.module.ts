@@ -26,6 +26,7 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServicoPageComponent } from './servico-page/servico-page.component';
+import { PortofolioPageComponent } from './portofolio-page/portofolio-page.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ServicoPageComponent } from './servico-page/servico-page.component';
     FooterComponent,
     HeaderComponent,
     ServicoPageComponent,
+    PortofolioPageComponent,
     
   ],
   imports: [

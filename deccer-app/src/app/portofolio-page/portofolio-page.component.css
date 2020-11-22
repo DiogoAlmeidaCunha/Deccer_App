@@ -1,0 +1,139 @@
+
+.bg {
+    /* The image used */
+    background-image: url("../../assets/bg_3.jpg");
+    /*background-color: #4156e3;*/
+    
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    font-size: 4.44vw;
+    color:#29aae3;
+}
+
+.list{
+    font-size: 1.5vw;
+    color: rgb(46, 46, 46);
+    font-family:  sans-serif
+}
+
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    animation: createBox 2s;
+}
+
+@keyframes createBox {
+        from {
+          transform: scale(0.60);
+        }
+        to {
+          transform: scale(1);
+    }
+}
+
+.slide {
+    right: -3000px;
+    -webkit-animation: slide 0.2s forwards;
+    -webkit-animation-delay: 0.9s;
+    animation: slide 1s forwards;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right:0; }
+}
+
+.pt-8{
+    padding-top:8%;
+}
+
+.mb-l{
+    margin-bottom: 6%;
+}
+
+
+h2{
+    color:white;
+    margin-top:14%;
+}
+
+.box-white{
+    background-color: white; opacity: 0.7;
+    margin: 8%;
+    margin-left: 14%;
+}
+
+
+@media (max-width: 760px){
+    p{ font-size:  4.4vw;}
+}
+
+.box-black{
+    background-color: black; opacity: 0.88;
+    box-shadow: 5px 10px #29aae3;
+    animation: flip;
+}
+
+
+  
+.flipper1 {
+-webkit-animation-name: flip;
+        animation-name: flip;
+-webkit-animation-duration: 1.6s;
+        animation-duration: 1.6s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+        
+}
+
+.flipper2 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.7s;
+            animation-delay: 3.7s;
+    }
+
+.flipper3 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.8s;
+            animation-delay: 4.8s;
+    }
+
+@-webkit-keyframes flip {
+    from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+  }
+  
+@keyframes flip {
+from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+}
+
+
+.box-black:hover{
+    background-color: #29aae3;
+}
