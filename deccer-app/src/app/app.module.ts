@@ -23,9 +23,9 @@ import { CompServicoComponent } from './components/comp-servico/comp-servico.com
 import { OrcamentoPageComponent } from './orcamento-page/orcamento-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ServicoComponent } from './servico/servico.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServicoPageComponent } from './servico-page/servico-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +36,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     OrcamentoPageComponent,
     FooterComponent,
     HeaderComponent,
-    ServicoComponent,
+    ServicoPageComponent,
     
   ],
   imports: [
