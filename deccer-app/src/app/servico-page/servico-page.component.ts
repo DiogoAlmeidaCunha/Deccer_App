@@ -10,10 +10,6 @@ export class ServicoPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
-    $('.carousel').carousel({
-      interval: 2000
-    })
     
   }
 
