@@ -12,16 +12,73 @@
 }
 
 
+.bg-can {
+    /* The image used */
+    background-image: url("../../assets/ca1.jpg");
+    /*background-color: #4156e3;*/
+    
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+
+.bg-tel {
+    /* The image used */
+    background-image: url("../../assets/s3.jpg");
+    /*background-color: #4156e3;*/
+    
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.bg-fun {
+    /* The image used */
+    background-image: url("../../assets/s1.jpg");
+    /*background-color: #4156e3;*/
+    
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+
 
 h1{
     font-size: 4.44vw;
     color:#29aae3;
 }
 
+h2{
+    padding-top: 8%;
+    color: #29aae3;
+    font-size: 2.8vw;
+    
+
+}
+
 .list{
     font-size: 1.5vw;
     color: rgb(46, 46, 46);
     font-family:  sans-serif
+}
+
+.color-left{
+    background-color: rgb(230, 225, 225);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: BOLD;
+    color: #363636;
+
 }
 
 .open-trans{
@@ -65,10 +122,7 @@ h1{
 }
 
 
-h2{
-    color:white;
-    margin-top:14%;
-}
+
 
 .box-white{
     background-color: white; opacity: 0.7;
