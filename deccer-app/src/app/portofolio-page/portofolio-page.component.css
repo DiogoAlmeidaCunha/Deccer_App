@@ -134,6 +134,45 @@ to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
 }
 
 
-.box-black:hover{
-    background-color: #29aae3;
+.mat-card-subtitle{color: #7f8080}
+
+mat-card-content{
+    margin: 5%;
+}
+
+.example-card {
+    max-width: 300px;
+    margin: 2%;
+    margin-bottom: 4%;
+    background-color: rgb(46, 44, 44);
+    color: white;
+  }
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  
+}
+ 
+
+button{
+    margin-top:2%;
+    padding: 2.4%;
+    margin-bottom: 2%;
+    color: #29aae3;
+    border-style: none;
+    border-width: thin;
+    opacity:0.78;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+    font-weight: bold;
+
+}
+
+
+button:hover{
+    transition:1s;
+    opacity: 0.60;
+    font-size: 1.3em;
+    color: #29aae3;
 }
