@@ -46,19 +46,62 @@ h2{
     }
 }
 
-.slide {
+.slide-r {
     right: -3000px;
-    -webkit-animation: slide 0.2s forwards;
-    -webkit-animation-delay: 0.9s;
-    animation: slide 1s forwards;
-    animation-delay: 0.2s;
+    -webkit-animation: slide-r 1.2s forwards;
+    -webkit-animation-delay: 0.1s;
+    animation: slide-r 2s forwards;
+    animation-delay: 0.3s;
 }
 
-@-webkit-keyframes slide {
+@-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1,1);
+    }
+    to {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes zoom {
+   from {
+        transform: scale(0.6,0.5);
+   }
+   to {
+        transform: scale(1,1);
+   }
+}
+
+
+.zoom {
+    -webkit-animation: zoom 5s; /* Chrome, Safari, Opera */
+    animation: zoom 5s;
+    animation-delay: 0s;
+}
+
+.slide-l {
+    left: -3000px;
+    -webkit-animation: slide-l 4.2s forwards;
+    -webkit-animation-delay: 0.9s;
+    animation: slide-l 3s forwards;
+    animation-delay: 1s;
+}
+
+
+@-webkit-keyframes slide-l {
+    100% { left: 0; }
+}
+
+@keyframes slide-l {
+    100% { left:0; }
+}
+
+@-webkit-keyframes slide-r {
     100% { right: 0; }
 }
 
-@keyframes slide {
+@keyframes slide-r {
     100% { right:0; }
 }
 
