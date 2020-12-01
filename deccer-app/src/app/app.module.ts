@@ -27,6 +27,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServicoPageComponent } from './servico-page/servico-page.component';
 import { PortofolioPageComponent } from './portofolio-page/portofolio-page.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -59,7 +61,8 @@ import { PortofolioPageComponent } from './portofolio-page/portofolio-page.compo
     MatGridListModule,
     MatMenuModule,
     NgbModule,
-    FontAwesomeModule 
+    FontAwesomeModule,
+    MatDialogModule
     
   ],
   providers: [],

@@ -18,6 +18,11 @@ h1{
     color:#29aae3;
 }
 
+h2{
+    font-size: 2.44vw;
+    color:#29aae3;
+}
+
 .list{
     font-size: 1.5vw;
     color: rgb(46, 46, 46);
@@ -64,11 +69,6 @@ h1{
     margin-bottom: 6%;
 }
 
-
-h2{
-    color:white;
-    margin-top:14%;
-}
 
 .box-white{
     background-color: white; opacity: 0.7;
@@ -143,7 +143,7 @@ mat-card-content{
 .example-card {
     max-width: 300px;
     margin: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     background-color: rgb(46, 44, 44);
     color: white;
   }
@@ -152,6 +152,14 @@ mat-card-content{
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   
+}
+.mat-dialog-content{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: none;
+
 }
  
 

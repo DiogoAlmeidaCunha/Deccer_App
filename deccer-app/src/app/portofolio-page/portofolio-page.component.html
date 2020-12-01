@@ -39,9 +39,8 @@
         </p>
 
         <mat-card-actions class="align-items-end">
-          <button mat-button>VER MAIS</button>
+          <button mat-button (click)="openDialog()">VER MAIS</button>
         </mat-card-actions>
-
       </mat-card-content>
       
     </mat-card>
@@ -58,7 +57,7 @@
           bred for hunting.
         </p>
         <mat-card-actions>
-          <button mat-button>VER MAIS</button>
+          <button mat-button (click)="openDialog()">VER MAIS</button>
         </mat-card-actions>
 
       </mat-card-content>
@@ -78,7 +77,7 @@
         </p>
 
         <mat-card-actions>
-          <button mat-button>VER MAIS</button>
+          <button mat-button (click)="openDialog()">VER MAIS</button>
         </mat-card-actions>
 
       </mat-card-content>
@@ -98,7 +97,27 @@
         </p>
 
         <mat-card-actions class="mt-auto">
-          <button mat-button>VER MAIS</button>
+          <button mat-button (click)="openDialog()">VER MAIS</button>
+        </mat-card-actions>
+
+      </mat-card-content>
+     
+    </mat-card>
+
+    <mat-card class="example-card flipper3 text-left">
+      <img mat-card-image src="../../assets/por1.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content >
+        <mat-card-title>EXTERIOR</mat-card-title>
+        <mat-card-subtitle>PINTURA DE PORTÕES</mat-card-subtitle>
+
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+
+        <mat-card-actions class="mt-auto">
+          <button mat-button (click)="openDialog()">VER MAIS</button>
         </mat-card-actions>
 
       </mat-card-content>
