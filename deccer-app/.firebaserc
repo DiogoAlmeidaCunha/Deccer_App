@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "deccer-22b5a": {
+      "hosting": {
+        "deccer-app": [
+          "deccer-22b5a"
+        ]
+      }
+    }
+  }
+}
