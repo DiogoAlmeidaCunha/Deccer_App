@@ -23,7 +23,7 @@ a,li{
 
 .bg-can {
     /* The image used */
-    background-image: url("../../assets/ca1.jpg");
+    background-image: url("../../assets/cont1.jpg");
     /*background-color: #4156e3;*/
     
     margin-top: 0%;
@@ -154,8 +154,9 @@ h2{
     margin-bottom: 6%;
 }
 
-
-
+.m-l{
+    margin:7%;
+}
 
 .box-white{
     background-color: white; opacity: 0.7;
@@ -163,10 +164,20 @@ h2{
     margin-left: 14%;
 }
 
+p{ font-size:  18px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+
 
 @media (max-width: 760px){
-    p{ font-size:  4.4vw;}
+    h1,h2{font-size:32px}
+    p{ font-size:  12px;}
+    
+    .serv{
+        max-height: 240px;
+    }
 }
+
+
 
 button{
     margin-top:2%;
