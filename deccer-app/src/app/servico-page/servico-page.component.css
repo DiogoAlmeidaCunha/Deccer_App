@@ -164,7 +164,7 @@ h2{
     margin-left: 14%;
 }
 
-p{ font-size:  18px;
+p{ font-size:  13px;
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
 
 
@@ -177,8 +177,6 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
     }
 }
 
-
-
 button{
     margin-top:2%;
     padding: 2.4%;
@@ -187,6 +185,7 @@ button{
     color: white;
     border-style: none;
     border-width: thin;
+    font-size: 12px;
     opacity:0.78;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
     transition: 1s;
@@ -194,9 +193,15 @@ button{
 button:hover{
     transition:1s;
     border-color: #29aae3;
-    background-color: #053d55;;
+    background-color: #29aae3;;
     opacity: 0.60;
-    font-size: 1.19em;
+    font-size: 16px;
     color: white;
 }
 
+.btn{
+    padding-top:10%;
+    background-color: #29aae3;
+    width: 100%;
+    opacity: 1;
+}
