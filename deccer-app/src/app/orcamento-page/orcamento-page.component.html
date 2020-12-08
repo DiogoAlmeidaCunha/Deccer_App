@@ -5,85 +5,142 @@
 
 
   <!-- Content here -->
-<div class="container-fluid   ">
+<div class="container-fluid bg  ">
   
   <!-- First Layout  -->
-  <div class="row text-center bg  mb-l">
-    <div class="col-md-6 pt-8 pb-5 ">
-      <p>
-        <mat-form-field appearance="legacy">
-          <mat-label>Nome:</mat-label>
-          <input matInput placeholder="Ex: Tiago Andrade">
-          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-          <mat-hint>Nome Completo</mat-hint>
-        </mat-form-field>
-      </p>
-      <p>
-        <mat-form-field appearance="legacy">
-          <mat-label>Temelovel:</mat-label>
-          <input matInput placeholder="Ex: Tiago Andrade">
-          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-          <mat-hint>Numero Tel/Tef</mat-hint>
-        </mat-form-field>
-      </p>
-      <p>
-        <mat-form-field appearance="standard">
-          <mat-label>Morada:</mat-label>
-          <input matInput placeholder="Placeholder">
-          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-          <mat-hint>Local da Obra</mat-hint>
-        </mat-form-field>
-      </p>
-      <p>
-        <mat-form-field appearance="fill">
-          <mat-label>E-mail</mat-label>
-          <input matInput placeholder="Placeholder">
-          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-          <mat-hint>E-mail pessoal ou empresa</mat-hint>
-        </mat-form-field>
-      </p>
-      <p>
-        <mat-form-field appearance="fill" >
-          <mat-label>Descrição:</mat-label>
-          <textarea style="height: 140px; width: 330px;" matInput></textarea>
-        </mat-form-field>
-      </p>
-        <button>Enviar</button>
+  <div class="row justify-content-md-center p-5   ">
+
+    <div class="col-md-6 p-3 pl-5 text-left box-dark "> 
+      <div class="row">
+        
+        <div class="col-12">
+          <h2 class="mt-5">PEÇA UM ORÇAMENTO</h2>
+        </div>
+
+        <div class="col-md-5 col-sm-12  bg-red">
+          <mat-form-field appearance="legacy">
+            <mat-label>Nome:</mat-label>
+            <input matInput placeholder="Ex: Tiago Andrade">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Primeiro nome</mat-hint>
+          </mat-form-field>
+
+          <mat-form-field appearance="legacy">
+            <mat-label>Telemovel:</mat-label>
+            <input matInput placeholder="Ex: 913822423">
+            <mat-hint>Numero completo</mat-hint>
+          </mat-form-field>
+
+          <mat-form-field appearance="legacy">
+            <mat-label>E-mail:</mat-label>
+            <input matInput placeholder="Ex: nome@domain.com">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>e-mail pessoal</mat-hint>
+          </mat-form-field>
+
+        </div>
+  
+        <div class="col-md-5 col-sm-12 ">
+          <mat-form-field appearance="legacy">
+            <mat-label>Apelido:</mat-label>
+            <input matInput placeholder="Ex: Andrade">
+            
+          </mat-form-field>
+
+          <mat-form-field appearance="legacy">
+            <mat-label>Morada:</mat-label>
+            <input matInput placeholder="Ex: Rua Santo Guimarães">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Morada completa</mat-hint>
+          </mat-form-field>
+
+        </div>
+
+        <div class="col-md-12 ">
+          <mat-form-field appearance="fill" style="width: 90%;" >
+            <mat-label>Descrição do Problema</mat-label>
+            <textarea matInput></textarea>
+          </mat-form-field>
+        </div>
+        
+        <div class="col-12 text-right pr-5">
+          <button class="mt-4">
+            Enviar
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cursor-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
+          </svg></button>
+          
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-4  d-none d-sm-block align-self-center slide pb-4 box-white" > 
-      <div class="pt-5 list text-right pr-4">
-        <h1 style="padding-bottom: 8%;">ORÇAMENTO</h1>
-        <p>GARANTIA MINÍMA DE 5 ANOS</p>
-        <p>OS PRAZOS SÃO PARA CUMPRIR</p>
-        <p>NÃO HÁ SURPRESAS NO PREÇO*</p>
-        <p>PROFISSIONAIS COM MAIS DE 40 ANOS DE EXPERIENCIA</p>
+    <div class="col-md-4 text-left slide box-blue" > 
+      <div class=" row pt-5 p-4 mb-2">
+        <div class="col-12 mb-4">
+          <h1 >Info:</h1>
+        </div>
+        
+        <div class="col-12 pb-2">
+          <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <a class="ml-2" style="color: white; font-size: 13px;">Garantia minima de 5 anos</a>
+        </div>
 
+        <div class="col-12 pb-2">
+          <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <a class="ml-2" style="color: white; font-size: 13px;">Os prazos são para cumprir</a>
+        </div>
+
+        <div class="col-12 pb-2">
+          <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <a class="ml-2" style="color: white; font-size: 13px;">Não há supresas no preço</a>
+        </div>
+
+        <div class="col-12 pb-2">
+          <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+          <a class="ml-2" style="color: white; font-size: 13px;">Profissionais com mais de 40 anos</a>
+        </div>
+
+        <div class="col-12 mt-5">
+          <svg width="1.9em" height="1.9em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+          </svg> <a class="ml-3" style="color: white; font-size: 18px;">geral.deccer@gmail.com</a>
+        </div>
+        <div class="col-12 mt-2">
+          <svg width="1.9em" height="1.9em" viewBox="0 0 16 16" class="bi bi-calendar-check-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+          </svg>
+          <a class="ml-3" style="color: white; font-size: 18px;">+351 913868569</a>
+        </div>
         
       </div>
     </div>
-  </div>
 
-  <!-- Second Layout  -->
-  <div class="row pt-5 mb-l justify-content-center text-center" >
-      
-      <div class="col-md-3 m-4 p-5 box-black text-justify flipper1 ">
-        <img style="width: 80px; height: 80px;" src="../../assets/orc1.png">
-        <h2>Credibilidade e Rigor no plano de orçamentação. Todos os trabalhos adjacentes listados e detalhados, ao favor do cliente.</h2>
-      </div>
-      <div class="col-md-3 m-4 p-5 box-black text-justify flipper2">
-        <img style="width: 80px; height: 80px;" src="../../assets/orc2.png">        
-        <h2>Dinamismo na resposta. Gostamos de favorecer ao cliente uma vasta possiblidade de comunicação e acessibilidade. </h2>
-      </div>
-      <div class="col-md-3 m-4 p-5 box-black text-justify flipper3">
-        <img style="width: 80px; height: 80px;" src="../../assets/orc3.png">        
-        <h2>Planeamento e resposta no prazo de uma semana a todos os orçamentos.</h2>
-      </div>
-      
   </div>
 
 </div>
 
+ <!-- Second Layout  -->
+ <div class="container pt-5 mb-l  " >
+  <div class="row justify-content-center">
+    <div class="col-md-3 m-4 p-5 box-black text-justify flipper1 ">
+      <img style="width: 80px; height: 80px;" src="../../assets/orc1.png">
+      <p class="mt-4"> Credibilidade e Rigor no plano de orçamentação. Todos os trabalhos adjacentes listados e detalhados, ao favor do cliente.</p>
+    </div>
+    <div class="col-md-3 m-4 p-5 box-black text-justify flipper2">
+      <img style="width: 80px; height: 80px;" src="../../assets/orc2.png">        
+      <p class="mt-4">Dinamismo na resposta. Gostamos de favorecer ao cliente uma vasta possiblidade de comunicação e acessibilidade. </p>
+    </div>
+    <div class="col-md-3 m-4 p-5 box-black text-justify flipper3">
+      <img style="width: 80px; height: 80px;" src="../../assets/orc3.png">        
+      <p class="mt-4">Planeamento e resposta no prazo de uma semana a todos os orçamentos.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
   <app-footer id="footer"></app-footer>
