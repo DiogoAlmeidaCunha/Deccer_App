@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg444.jpg");
+    background-image: url("../../assets/bg44.jpg");
     /*background-color: #4156e3;*/
     
     margin-top: 0%;
@@ -64,6 +64,8 @@ h1{
 
 
 button{
+    outline: none;
+
     margin-top:0%;
 
     padding: 2.4%;

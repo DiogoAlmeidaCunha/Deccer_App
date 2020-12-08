@@ -11,6 +11,10 @@ export class FooterComponent implements OnInit {
     window.open("https://www.instagram.com/deccer_porto");
   }
 
+  instagram2(){
+    window.open("https://www.instagram.com/witech_");
+  }
+
   constructor() { }
 
   ngOnInit(): void {

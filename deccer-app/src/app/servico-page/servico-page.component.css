@@ -178,6 +178,8 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
 }
 
 button{
+    outline: none;
+
     margin-top:2%;
     padding: 2.4%;
     margin-bottom: 4%;

@@ -1,19 +1,40 @@
 
-header{
-    background-color: white;
-}
 
 .nav-color , a{
     /*background-color: #fdfdfd;*/
     color: #29aae3;
     font-weight: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-family: Optima, sans-serif;
     opacity: 0.98;
     z-index: 1;
     padding-left: 5%;
     padding-right: 5%;
-    
-    
+}
+
+li,ul{
+    list-style-type: none;
+    font-size: 15.5px;
+    transition: 0.5s;
+    font-family:Optima, sans-serif
+
+}
+
+li:hover{
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 .nav-logo{
@@ -24,10 +45,20 @@ header{
     padding-top: 3%;
 }
 
+div {
 
-ul,li {
-    list-style-type: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    padding-top: 4%;
-    font-size: 15px;
-}
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes example {
+    from {top: -511px; }
+    to {top: 0px;}
+  }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

@@ -154,7 +154,6 @@ h2,h3,h4,h5{
     overflow: hidden;
     transition-duration: 0.8s;
     transition-property: transform;
-    
     animation: createBox 1.5s;
     
 }
