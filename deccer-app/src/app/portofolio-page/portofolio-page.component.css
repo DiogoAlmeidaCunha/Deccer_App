@@ -1,9 +1,10 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg_3.jpg");
+    background-image: url("../../assets/bg_3d.jpg");
     /*background-color: #4156e3;*/
-    
+    min-height: 455px;
+
     margin-top: 0%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -32,9 +33,14 @@ h3{
 .list{
     font-size: 1.5vw;
     color: rgb(46, 46, 46);
-    font-family:  sans-serif
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p{
+    font-size: 16px;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .open-trans{
     overflow: hidden;
     transition-duration: 1.90s;
@@ -123,7 +129,8 @@ mat-card{
 }
 
 .box-white{
-    background-color: white; opacity: 0.7;
+    background-color: white; 
+    opacity: 0.8;
     margin: 8%;
     margin-left: 14%;
 }
@@ -139,7 +146,7 @@ mat-card{
 }
 
 .box-black{
-    box-shadow: 5px 10px #29aae3;
+    box-shadow: -8px -6px #29aae3;
 }
 
 

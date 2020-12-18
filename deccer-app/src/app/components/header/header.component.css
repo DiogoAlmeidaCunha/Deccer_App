@@ -15,7 +15,7 @@ li,ul{
     list-style-type: none;
     font-size: 15.5px;
     transition: 0.5s;
-    font-family:Optima, sans-serif
+    font-family:Clan,sans-serif;
 
 }
 
@@ -28,7 +28,7 @@ li:hover{
     outline: none;
 }
 p{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Clan,sans-serif;
     font-weight: bold;
 
 }

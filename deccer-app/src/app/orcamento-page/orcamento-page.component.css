@@ -1,12 +1,14 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bgo.jpg");
+    background-image: url("../../assets/bg4.jpg");
     /*background-color: #4156e3;*/
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 455px;
+
 }
 
 ::ng-deep.mat-form-field.mat-focused .mat-form-field-ripple{
@@ -17,6 +19,7 @@ h1{
     font-size: 40px;
     color:black;
     font-weight: bold;
+    font-family: Clan,sans-serif;
 }
 
 h2{
@@ -25,7 +28,7 @@ h2{
 }
 
 a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     
 }
@@ -121,7 +124,7 @@ button:hover{
     transition:1s;
     border-color: #29aae3;
     background-color: #29aae3;;
-    opacity: 0.60;
+    opacity: 0.99;
     font-size: 1.3em;
     color: white;
 }
@@ -188,4 +191,36 @@ to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
 
 .box-black:hover{
     background-color: #29aae3;
+}
+
+#contact1{
+    font-size: 18px;
+    color: white;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#contact2{
+    font-size: 18px;
+    color: white;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 760px){
+    h1,h2{font-size:27px}
+    p{ font-size:  12px;}
+    
+    .serv{
+        max-height: 240px;
+    }
+
+    #contact1{
+        font-size: 11px;
+        color: white;
+    }
+
+    #contact2{
+        font-size: 12px;
+        color: white;
+    }
 }

@@ -40,9 +40,49 @@ a:hover{
     font-size: 1.24em;
 }
 
+h1{
+    font-size: 14px;
+}
+
 .h6{
     font-size: 1.3em;
     color: #29aae3;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
+}
+button{
+    margin-top:0%;
+    margin-bottom: 1%;
+    padding: 2.4%;
+    background-color: transparent;
+    color: white;
+    border-color: #29aae3;
+    border-style: solid;
+    border-width: thin;
+    font-family: monospace;
+    background-color: #29aae3;
+    z-index:100;
+    transition: 0.2s;
+}
+button:hover{
+    transition:0.2s;
+    border-color: #29aae3;
+    background-color: #29aae3;;
+    opacity: 0.90;
+    font-size: 16px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+} a:hover{
+    color: white;
+    border-color: #29aae3;
+
+}
+
+@media (max-width: 780px) { 
+    button{
+        margin-bottom: 9%;
+    }
 }
