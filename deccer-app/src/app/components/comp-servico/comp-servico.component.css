@@ -20,7 +20,7 @@
     background-size: cover;
     color: white;
     font-size: 1.9em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:Roboto, "Helvetica Neue", sans-serif;
 }
 
 .comp-servico:hover{
@@ -32,6 +32,8 @@ a{
     text-decoration: none;
     color: white;
     transition: 1s;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
+
 }
 
 a:hover{
@@ -41,13 +43,13 @@ a:hover{
 }
 
 h1{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .h6{
     font-size: 1.3em;
     color: #29aae3;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:Roboto, "Helvetica Neue", sans-serif;
     
 }
 button{
@@ -55,21 +57,27 @@ button{
     margin-bottom: 1%;
     padding: 2.4%;
     background-color: transparent;
-    color: white;
-    border-color: #29aae3;
+    color: rgb(34, 33, 33);
+    border-color: rgb(34, 34, 34);
     border-style: solid;
     border-width: thin;
     font-family: monospace;
-    background-color: #29aae3;
+    background-color:none;
     z-index:100;
     transition: 0.2s;
 }
 button:hover{
     transition:0.2s;
-    border-color: #29aae3;
+    border-color:#29aae3;
     background-color: #29aae3;;
     opacity: 0.90;
     font-size: 16px;
+    color: white;
+
+    
+}
+
+#btn_servico:hover{
     color: white;
 }
 
@@ -78,7 +86,10 @@ a{
 } a:hover{
     color: white;
     border-color: #29aae3;
+}
 
+#btn_servico{
+    color:black;
 }
 
 @media (max-width: 780px) { 

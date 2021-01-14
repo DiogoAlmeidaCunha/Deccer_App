@@ -20,12 +20,12 @@ h1{
 }
 
 h2{
-    font-size: 38px;
-    color: white;
+    font-size: 27px;
+    color: rgb(51, 50, 50);
 }
 
 h3{
-    font-size: 38px;
+    font-size: 32px;
     color: #29aae3;
     margin-bottom: 5%;
 }
@@ -135,22 +135,29 @@ mat-card{
     margin-left: 14%;
 }
 
+.p-large{
+    margin: 20px;
+}
+
+
+.box-black{
+    box-shadow: -8px -6px #29aae3;
+    min-height: 400px;
+
+}
 
 @media (max-width: 760px){
     p{ font-size:  12px;}
     
     .mobile{
-        width: 84%;
+        width: 90%;
         align-items: center;
+        margin-bottom: 5%;
+        min-height: 100px;
     }
 }
 
-.box-black{
-    box-shadow: -8px -6px #29aae3;
-}
 
-
-  
 .flipper1 {
 -webkit-animation-name: flip;
         animation-name: flip;
@@ -250,8 +257,3 @@ button:hover{
 }
 
 
-mat-card :hover{
-
-    font-size: 14px;
-    transition: 1s;
-}

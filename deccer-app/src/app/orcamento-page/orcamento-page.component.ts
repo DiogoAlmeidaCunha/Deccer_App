@@ -11,10 +11,13 @@ export class OrcamentoPageComponent implements OnInit {
 
   faCoffee = faCoffee;
 
-  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  sendMessage(){
+    window.alert("Envio Indesponivel! \n\nContacto : 913868569\nEmail : geral.deccer@gmail.com ")
   }
 
 }
