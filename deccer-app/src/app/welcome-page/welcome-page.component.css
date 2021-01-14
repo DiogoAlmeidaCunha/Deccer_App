@@ -261,6 +261,18 @@ button:hover{
     -webkit-transform: rotate(360deg);
 
 }
+
+.ave{
+    transition:1s;
+    cursor: pointer;
+}
+
+.ave:hover{
+    transition:1s;
+    opacity: 0.550;
+    size: 1000px;
+}
+
 a{
     text-decoration: none;
 }

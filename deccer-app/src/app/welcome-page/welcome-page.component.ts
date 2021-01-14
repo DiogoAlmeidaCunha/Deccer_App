@@ -15,4 +15,7 @@ export class WelcomePageComponent implements OnInit {
   ngOnInit(): void {
   } 
 
+  openInstagram(){
+    window.open("https://www.instagram.com/aventur.desporto/");
+  }
 }
