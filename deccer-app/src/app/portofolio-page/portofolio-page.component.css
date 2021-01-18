@@ -3,14 +3,18 @@
     /* The image used */
     background-image: url("../../assets/bg_3d.jpg");
     /*background-color: #4156e3;*/
-    min-height: 455px;
+    min-height: 600px;
 
     margin-top: 0%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}@media (min-width: 1760px){
+    .bg{
+     height: 840px;
+    } 
+ }
 
 
 

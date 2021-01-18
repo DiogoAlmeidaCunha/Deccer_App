@@ -12,12 +12,17 @@ a,li{
     /* The image used */
     background-image: url("../../assets/bg_2d.jpg");
     /*background-color: #4156e3;*/
-    min-height: 444px;
+    min-height: 600px;
     margin-top: 0%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+} @media (min-width: 1760px){
+   .bg{
+    height: 840px;
+   } 
 }
 
 
@@ -154,7 +159,7 @@ h2{
 
 .box-white{
     background-color: white; 
-    opacity: 0.77;
+    opacity: 0.87;
     margin: 8%;
     margin-left: 14%;
 }
@@ -202,4 +207,10 @@ button:hover{
     background-color: #29aae3;
     width: 100%;
     opacity: 1;
+}
+
+.delay-up{
+    transform: translateY(4em) rotateZ(-5deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
+    will-change: transform, opacity;
 }

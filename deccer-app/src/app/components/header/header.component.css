@@ -19,6 +19,14 @@ li,ul{
 
 }
 
+.bg-color{
+    background-color: #29aae3;
+    color: white;
+    opacity: 0.88;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 li:hover{
     font-weight: bold;
     color: rgb(155, 204, 241);
