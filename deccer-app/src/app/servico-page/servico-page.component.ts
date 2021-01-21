@@ -13,4 +13,8 @@ export class ServicoPageComponent implements OnInit {
     
   }
 
+  btnClick= function () {
+    this.router.navigateByUrl('/orcamento');
+};
+
 }

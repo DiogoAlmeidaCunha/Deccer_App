@@ -1,0 +1,43 @@
+a,li{
+    text-decoration: none;
+    color: white;
+    margin-top:5%;
+    margin-bottom: 5%;
+    transition: 0.14s;
+    font-size: 100%;
+}
+
+.bg {
+      /* The image used */
+      background-image: url("../../../../assets/cont1blue.jpg");
+      /*background-color: #4156e3;*/
+      /* Full height */
+      height: 100%;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+
+} 
+
+button{
+    padding: 1.8%;
+    margin-bottom: 2%;
+    background-color: #29aae3;
+    color: white;
+    border-color: #29aae3;
+    border-style: solid;
+    border-width: thin;
+    font-family: monospace;
+    transition: 3s;
+}
+ 
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: black;
+    text-shadow: 2px 2px #296b97;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
+}

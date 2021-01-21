@@ -16,7 +16,28 @@
     } 
  }
 
+ 
+.bgPort{
+    /* The image used */
+    background-image: url("../../assets/portblack.jpg");
+    /*background-color: #4156e3;*/
+    min-height: 600px;
 
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}@media (min-width: 1760px){
+    .bg{
+     height: 840px;
+    } 
+ }
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
 
 h1{
     font-size: 44px;
@@ -24,7 +45,7 @@ h1{
 }
 
 h2{
-    font-size: 27px;
+    font-size: 30px;
     color: rgb(51, 50, 50);
 }
 

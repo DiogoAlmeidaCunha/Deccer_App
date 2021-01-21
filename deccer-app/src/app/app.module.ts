@@ -28,6 +28,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServicoPageComponent } from './servico-page/servico-page.component';
 import { PortofolioPageComponent } from './portofolio-page/portofolio-page.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { CanalizacoesComponent } from './servico-page/services/canalizacoes/canalizacoes.component';
+import { FunilariasComponent } from './servico-page/services/funilarias/funilarias.component';
+import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
 
 
 @NgModule({
@@ -41,6 +44,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     HeaderComponent,
     ServicoPageComponent,
     PortofolioPageComponent,
+    CanalizacoesComponent,
+    FunilariasComponent,
+    ExterioresComponent,
     
   ],
   imports: [
