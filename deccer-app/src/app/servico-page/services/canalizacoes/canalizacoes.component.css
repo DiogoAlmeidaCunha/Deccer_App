@@ -7,9 +7,10 @@ a,li{
     font-size: 100%;
 }
 
-.bg {
+.bg {   
+        
       /* The image used */
-      background-image: url("../../../../assets/cont1blue.jpg");
+      background-image: url("../../../../assets/contblack.jpg");
       /*background-color: #4156e3;*/
       /* Full height */
       height: 100%;
@@ -17,7 +18,6 @@ a,li{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-  
 
 } 
 
@@ -30,9 +30,19 @@ button{
     border-style: solid;
     border-width: thin;
     font-family: monospace;
-    transition: 3s;
+    transition: all .2s ease-in-out;
+
+}
+
+button:hover{
+    transform: scale(1.1);
 }
  
+p{
+    font-family:Roboto, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
 h1{
     font-size: 50px;
     font-weight: bold;
@@ -40,4 +50,43 @@ h1{
     text-shadow: black;
     text-shadow: 2px 2px #296b97;
     font-family:Roboto, "Helvetica Neue", sans-serif;
+}
+
+@media(max-width: 740px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+.title{
+    -webkit-transform: skewX(-45deg);
+     transform: skewX(-45deg);
+    padding: 60px; 
+    background-color: #29aae3; 
+    opacity: 0.7; 
+}
+
+.title-text{
+    -webkit-transform: skewX(45deg);
+     transform: skewX(45deg);
+}
+
+.box-gray{
+    background-color: rgb(245, 248, 250);
+    opacity: 0.9;
+    border-radius: 4px;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+.box-gray:hover{
+    transform: scale(1.1);
+}
+
+.border-color{
+    border-style: solid;
+    border-right-color: rgb(65, 142, 214);
+    border-left-color: rgb(65, 142, 214);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
 }

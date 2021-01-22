@@ -6,7 +6,7 @@
     z-index: 1;
     padding-left: 5%;
     padding-right: 5%;
-    transition: 0.09s;
+    transition: all .2s ease-in-out;
     
 }
 
@@ -18,6 +18,8 @@
     z-index: 1;
     padding-left: 5%;
     padding-right: 5%;
+    transition: all .2s ease-in-out;
+
     
 }
 
@@ -27,6 +29,9 @@
     margin-right: none;
     margin-top: 0%;
     padding-top: 3%;
+    transition: all .2s ease-in-out;
+
+    
 }
 
 
@@ -35,7 +40,10 @@ ul,li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     padding-top: 4%;
     font-size: 15px;
+    transition: all .2s ease-in-out;
+    
 }
+
 
 .bg {
     /* The image used */
@@ -140,10 +148,8 @@ h2,h3,h4,h5{
     }
 }
 
-
 .bold:hover{
-    font-size: 17px;
-    transition: 0.88s;
+    transform: scale(1.1);
 }
 
 .carousel {

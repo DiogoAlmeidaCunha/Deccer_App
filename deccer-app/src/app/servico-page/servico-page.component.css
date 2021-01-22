@@ -81,7 +81,7 @@ a,li{
 
 
 h1{
-    font-size: 60px;
+    font-size: 54px;
     color:#29aae3;
     font-family:Roboto, "Helvetica Neue", sans-serif;
 }
@@ -162,6 +162,13 @@ h2{
     opacity: 0.87;
     margin: 8%;
     margin-left: 14%;
+    -webkit-transform: skewX(-35deg);
+    transform: skewX(-35deg);
+}
+
+.box-text{
+    -webkit-transform: skewX(35deg);
+    transform: skewX(35deg);
 }
 
 p{

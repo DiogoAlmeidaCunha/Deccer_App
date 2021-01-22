@@ -36,7 +36,7 @@
 
 
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
 }
 
 h1{
@@ -58,12 +58,12 @@ h3{
 .list{
     font-size: 1.5vw;
     color: rgb(46, 46, 46);
-    font-style: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
 }
 
 p{
     font-size: 16px;
-    font-style: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Roboto, "Helvetica Neue", sans-serif;
 
 }
 .open-trans{
@@ -90,31 +90,6 @@ p{
     animation-delay: 0.3s;
 }
 
-@-webkit-keyframes zoom {
-    from {
-    	-webkit-transform: scale(1,1);
-    }
-    to {
-    	-webkit-transform: scale(1.5,1.5);
-    }
-}
-
-/* Standard syntax */
-@keyframes zoom {
-   from {
-        transform: scale(0.6,0.5);
-   }
-   to {
-        transform: scale(1,1);
-   }
-}
-
-
-.zoom {
-    -webkit-animation: zoom 5s; /* Chrome, Safari, Opera */
-    animation: zoom 5s;
-    animation-delay: 0s;
-}
 
 .slide-l {
     left: -3000px;
@@ -181,52 +156,6 @@ mat-card{
         min-height: 100px;
     }
 }
-
-
-.flipper1 {
--webkit-animation-name: flip;
-        animation-name: flip;
--webkit-animation-duration: 1.6s;
-        animation-duration: 1.6s;
--webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
--webkit-animation-delay: 2.9s;
-        animation-delay: 2.9s;
-        
-}
-
-.flipper2 {
-    -webkit-animation-name: flip;
-            animation-name: flip;
-    -webkit-animation-duration: 1.6s;
-            animation-duration: 1.6s;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 3.7s;
-            animation-delay: 3.7s;
-    }
-
-.flipper3 {
-    -webkit-animation-name: flip;
-            animation-name: flip;
-    -webkit-animation-duration: 1.6s;
-            animation-duration: 1.6s;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 4.8s;
-            animation-delay: 4.8s;
-    }
-
-@-webkit-keyframes flip {
-    from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
-    to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
-  }
-  
-@keyframes flip {
-from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
-to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
-}
-
 
 .mat-card-subtitle{color: #7f8080}
 
