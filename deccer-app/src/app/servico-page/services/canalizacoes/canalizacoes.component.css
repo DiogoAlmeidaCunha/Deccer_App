@@ -39,17 +39,22 @@ button:hover{
 }
  
 p{
-    font-family:Roboto, "Helvetica Neue", sans-serif;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: black;
-    text-shadow: 2px 2px #296b97;
-    font-family:Roboto, "Helvetica Neue", sans-serif;
+    
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Josefin Sans", Arial, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 @media(max-width: 740px){
@@ -59,16 +64,16 @@ h1{
 }
 
 .title{
-    -webkit-transform: skewX(-45deg);
-     transform: skewX(-45deg);
+    -webkit-transform: skewX(-20deg);
+     transform: skewX(-20deg);
     padding: 60px; 
     background-color: #29aae3; 
     opacity: 0.7; 
 }
 
 .title-text{
-    -webkit-transform: skewX(45deg);
-     transform: skewX(45deg);
+    -webkit-transform: skewX(20deg);
+     transform: skewX(20deg);
 }
 
 .box-gray{
@@ -89,4 +94,16 @@ h1{
     border-left-color: rgb(65, 142, 214);
     border-top-color: transparent;
     border-bottom-color: transparent;
+}
+
+.image_can{
+    background-image:url(../../../../assets/ca1.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -24px -30px 2px #29aae3;
+    -webkit-transform: skewX(-4deg);
+     transform: skewX(-4deg);
 }

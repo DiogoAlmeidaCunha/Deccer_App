@@ -12,6 +12,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 import { faLifeRing } from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-canalizacoes',
   templateUrl: './canalizacoes.component.html',
