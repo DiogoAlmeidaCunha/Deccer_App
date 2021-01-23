@@ -6,7 +6,6 @@ a,li{
     transition: 0.14s;
     font-size: 100%;
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
-
 }
 
 .bg {   
@@ -23,6 +22,7 @@ a,li{
 
 } 
 
+
 button{
     padding: 1.8%;
     margin-bottom: 2%;
@@ -33,7 +33,8 @@ button{
     border-width: thin;
     font-family: monospace;
     transition: all .2s ease-in-out;
-
+    box-shadow: 2px 2px 20px -1px rgba(187, 185, 185, 0.563);
+    border-radius: 2px;
 }
 
 button:hover{
@@ -46,7 +47,7 @@ p{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     color: #ffffff;
     
@@ -64,7 +65,7 @@ h2{
 .title{
     -webkit-transform: skewX(-20deg);
      transform: skewX(-20deg);
-    padding: 60px; 
+    padding: 45px; 
     background-color: #29aae3; 
     opacity: 0.7; 
 }
@@ -122,14 +123,21 @@ h2{
     background-color:  rgba(119, 121, 124, 0.124);
 }
 
+
 @media(max-width: 740px){
     h1{
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 32px;
     }
 
     .title{
-        -webkit-transform: skewX(-5deg);
-        transform: skewX(-5deg);
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-transform: skewX(-6deg);
+        transform: skewX(-6deg);
     }
     .title-text{
         -webkit-transform: skewX(5deg);
@@ -137,7 +145,7 @@ h2{
     }
 
     .mobile-row{
-        width: 80%;
+        width: 88%;
     }
 
     .image_can{

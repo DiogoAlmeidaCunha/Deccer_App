@@ -29,7 +29,7 @@ export class CanalizacoesComponent implements OnInit {
   faCircle = faCircle;
   faLifeRing = faLifeRing;
 
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [ " ../../../../assets/slide1.jpg" , " ../../../../assets/slide2.jpg" , "../../../../assets/slide3.jpg " ] ;
   
   constructor() { }
 

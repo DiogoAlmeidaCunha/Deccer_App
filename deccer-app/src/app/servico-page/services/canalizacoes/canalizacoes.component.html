@@ -12,7 +12,7 @@
   <!-- First Layout  -->
   <div class="row  bg justify-content-center pt-5 pb-4">
 
-    <div class="col-md-6 mb-5  text-center mt-5 title" > 
+    <div class="col-md-5  m-5 text-center title" > 
       <h1 class="title-text"> C A N A L I Z A Ç Õ E S </h1>
     </div>
 
@@ -116,15 +116,15 @@
 <!-- Four Content -->
 <div class="container-fluid pt-5 mt-5 mb-5">
 
-  <div class="row justify-content-center ">
-    <ngb-carousel *ngIf="images" class="mobile-row">
-      <ng-template ngbSlide>
+  <div class="row justify-content-center mb-5 ">
+    <ngb-carousel *ngIf="images" class="mobile-row "  >
+      <ng-template ngbSlide >
         <div class="picsum-img-wrapper">
-          <img [src]="images[0]" alt="Random first slide">
+          <img  [src]="images[0]" alt="Random first slide">
         </div>
         <div class="carousel-caption">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>1500m de TUBO PP-R</h3>
+          <p>Obra em espinho concluida, com mais de 1500m de tubo PPR intalados em 7 predios. </p>
         </div>
       </ng-template>
       <ng-template ngbSlide>
@@ -132,8 +132,8 @@
           <img [src]="images[1]" alt="Random second slide">
         </div>
         <div class="carousel-caption">
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Hidronil 1''</h3>
+          <p>Novas intalações de contadores de agua, com tubagem hidronil.</p>
         </div>
       </ng-template>
       <ng-template ngbSlide>
@@ -141,11 +141,27 @@
           <img [src]="images[2]" alt="Random third slide">
         </div>
         <div class="carousel-caption">
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>Multicamada</h3>
+          <p>Substituição de tubagem em ferro, para multi cadama no interior de uma casa de banho.</p>
         </div>
       </ng-template>
     </ngb-carousel>
+  </div>
+
+  <div class="row justify-content-center pt-4"> 
+
+    <div class="col-12 text-center mb-3" style="opacity: 0.89">
+      <h2> Deseja um Orçamento Gratuito ?</h2>
+    </div>
+
+    <div class="col-12 text-center">
+      <button>
+        <a href="/orcamento">
+          Contactar Agora
+        </a>
+      </button>
+    </div>
+    
   </div>
 
 </div>
