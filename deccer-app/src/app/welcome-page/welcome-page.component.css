@@ -259,15 +259,15 @@ button:hover{
 
 }
 
-.ave{
+.soft-hover{
     transition:1s;
     cursor: pointer;
 }
 
-.ave:hover{
+.soft-hover:hover{
     transition:1s;
     opacity: 0.550;
-    size: 1000px;
+    transform: scale(1.24);
 }
 
 a{

@@ -15,7 +15,14 @@ export class WelcomePageComponent implements OnInit {
   ngOnInit(): void {
   } 
 
-  openInstagram(){
-    window.open("https://www.instagram.com/aventur.desporto/");
+  openInstagram(name){
+
+    if(name=="af"){
+      window.open("https://www.af-reabilitacao.com/");
+
+    } else if(name=="jun"){
+      window.open("https://www.instagram.com/aventur.desporto/");
+
+    }
   }
 }
