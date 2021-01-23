@@ -81,7 +81,7 @@ a,li{
 
 
 h1{
-    font-size: 54px;
+    font-size: 48px;
     color:#29aae3;
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
 }
@@ -164,12 +164,10 @@ h2{
     margin-left: 14%;
     -webkit-transform: skewX(-12deg);
     transform: skewX(-12deg);
+    box-shadow: -19px -18px 2px #29aae3;
 }
 
-.box-text{
-    -webkit-transform: skewX(12deg);
-    transform: skewX(12deg);
-}
+
 
 p{
     font-size:  14px;
@@ -177,11 +175,19 @@ p{
 }
 
 @media (max-width: 1090px){
-    h1,h2{font-size:27px}
+    h1,h2{font-size:33px; font-weight: bold;}
     p{ font-size:  12px;}
     
     .serv{
         max-height: 240px;
+    }
+}
+
+@media (max-width: 760px){
+
+    .box-white{
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
     }
 }
 

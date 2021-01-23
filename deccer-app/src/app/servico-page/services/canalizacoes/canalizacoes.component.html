@@ -6,7 +6,7 @@
 <!-- End Header -->
 
 
-<!-- Content here -->
+<!-- FIRST Content  -->
 <div  class="container-fluid">
   
   <!-- First Layout  -->
@@ -24,8 +24,8 @@
 
 </div>
 
-<!-- Second Content here-->
-<div class="container-fluid">
+<!-- SECOND Content -->
+<div class="container-fluid mb-4">
    
     <div class="row justify-content-center p-5">
 
@@ -62,23 +62,90 @@
 
 </div>
 
-<div class="container-fluid ">
-  
-  <div class="row justify-content-center align-items-center">
 
+<!-- Thrid Content -->
+<div class="container-fluid" class="bg-color">
+  
+  <!-- PPR -->
+  <div class="row justify-content-center align-items-center pt-5">
+  
     <div class="col-md-4 text-center p-5">
       <div class="image_can text-center"></div>
     </div>
 
     <div class="col-md-5 text-left  p-5">
       <div>
-        <h2 style="color: black;"> CANALIZAÇÃO PPR </h2>
+        <h2 style="color: black;"> Tubagem PP-R </h2>
       </div>
       <div>
-        Trabalhos realizados com tubagem de distribuição de água fria e quente  formada por tubo de polipropileno copolímero random (PP-R), série 5, entre 16mm e 32 mm de diâmetro exterior, com até 2,9 mm de espessura, colocado superficialmente no interior do edifício, com isolamento através de espuma elastomérica se pretendido. Incluindo material auxiliar para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+        Dos materiais mais utilizados na nossa empresa, Polipropileno copolímero random (PP-R). Trabalhos realizados com tubagem de distribuição de água fria e quente  formada por tubo de polipropileno copolímero random (PP-R), série 5, entre 16mm e 32 mm de diâmetro exterior, com até 2,9 mm de espessura, colocado superficialmente no interior do edifício, com isolamento através de espuma elastomérica se pretendido. Incluindo material auxiliar para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
       </div>
     </div>
 
+  </div>
+
+  <!-- AçoInox -->
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-md-5 text-left  p-5 d-none d-sm-block">
+      <div>
+        <h2 style="color: black;"> Tubagem Aço-Inox </h2>
+      </div>
+      <div>
+        O segundo material mais utilizado pelos nossos profissionais, passa pela tubagem Aço Inoxidavel. Da mesma forma, o tubo aço-inoxidavel serve para distribuição de água fria e quente  formada por tubo copolímero random série 1/2, entre 15mm e 22 mm de diâmetro interior. Sendo maioritariamente colocado superficialmente no interior dos edifícios. Os nossos trabalhos, incluid todos os material auxiliar apropriados para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+      </div>
+    </div>
+
+    <div class="col-md-4 text-center p-5">
+      <div class="image_aco text-center"></div>
+    </div>
+
+    <div class="col-md-5 text-left  p-5 d-block d-sm-none ">
+      <div>
+        <h2 style="color: black;"> Tubagem Aço-Inox </h2>
+      </div>
+      <div>
+        O segundo material mais utilizado pelos nossos profissionais, passa pela tubagem Aço Inoxidavel. Da mesma forma, o tubo aço-inoxidavel serve para distribuição de água fria e quente  formada por tubo copolímero random série 1/2, entre 15mm e 22 mm de diâmetro interior. Sendo maioritariamente colocado superficialmente no interior dos edifícios. Os nossos trabalhos, incluid todos os material auxiliar apropriados para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Four Content -->
+<div class="container-fluid pt-5 mt-5 mb-5">
+
+  <div class="row justify-content-center ">
+    <ngb-carousel *ngIf="images" class="mobile-row">
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[0]" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
   </div>
 
 </div>

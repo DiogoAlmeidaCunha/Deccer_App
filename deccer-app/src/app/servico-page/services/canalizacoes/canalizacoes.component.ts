@@ -12,6 +12,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 import { faLifeRing } from '@fortawesome/free-solid-svg-icons';
 
+import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-canalizacoes',
@@ -28,6 +29,8 @@ export class CanalizacoesComponent implements OnInit {
   faCircle = faCircle;
   faLifeRing = faLifeRing;
 
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  
   constructor() { }
 
   ngOnInit(): void {

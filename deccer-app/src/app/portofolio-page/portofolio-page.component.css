@@ -40,7 +40,7 @@ p{
 }
 
 h1{
-    font-size: 44px;
+    font-size: 46px;
     color:#29aae3;
 }
 
@@ -99,6 +99,14 @@ p{
     animation-delay: 1s;
 }
 
+@media (max-width: 1090px){
+    h1,h2{font-size:33px; font-weight: bold;}
+    p{ font-size:  12px;}
+    
+    .serv{
+        max-height: 240px;
+    }
+}
 
 @-webkit-keyframes slide-l {
     100% { left: 0; }
@@ -133,7 +141,13 @@ mat-card{
     opacity: 0.8;
     margin: 8%;
     margin-left: 14%;
+    -webkit-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+    box-shadow: -19px -18px 2px #29aae3;
+
 }
+
+
 
 .p-large{
     margin: 20px;
@@ -154,6 +168,11 @@ mat-card{
         align-items: center;
         margin-bottom: 5%;
         min-height: 100px;
+    }
+
+    .box-white{
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
     }
 }
 
