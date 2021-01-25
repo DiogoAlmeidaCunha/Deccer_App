@@ -84,7 +84,7 @@ h2{
 }
 
 .box-tela{
-    background-image:url(../../../../assets/telas.jpg);
+    background-image:url(../../../../assets/caleira.jpg);
     opacity: 0.9;
     border-radius: 4px;
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
@@ -155,7 +155,7 @@ h2{
 }
 
 .image_rufo{
-    background-image:url(../../../../assets/s3.jpg);
+    background-image:url(../../../../assets/cap.jpg);
     width: 100%;
     height: 400px;
     background-position: center;

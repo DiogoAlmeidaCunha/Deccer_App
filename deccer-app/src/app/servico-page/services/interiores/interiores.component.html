@@ -1,1 +1,189 @@
-<p>interiores works!</p>
+
+<!-- HEADER -->
+<app-header>
+  
+</app-header>
+<!-- End Header -->
+
+
+<!-- Content here -->
+<div  class="container-fluid">
+  
+  <!-- First Layout  -->
+  <div class="row  bg justify-content-center pt-5 pb-4">
+
+    <div class="col-md-6 mb-5  text-center mt-5 title " > 
+      <h1 class="title-text"> I N T E R I O R E S</h1>
+    </div>
+
+    <div class="col-md-12 text-center">
+        <button class=" mb-5"><a href="/orcamento"> Pedir Orçamento</a></button>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Second Content here-->
+<div class="container-fluid">
+   
+    <div class="row justify-content-center p-5">
+
+        <div class="col-md-2 col-sm-3  box-gray p-5 text-center m-2 shadow-sm " > 
+          <fa-icon [icon]="faPaintRoller" size="3x"></fa-icon>
+          <p class="mt-3" > Pinturas</p>
+        </div>
+        <div class="col-md-2 col-sm-3 box-gray p-5 text-center m-2  shadow-sm" > 
+          <fa-icon [icon]="faKaaba" size="3x"></fa-icon>
+          <p class="mt-3" > Ceramicas</p>
+        </div>
+        <div class="col-md-2 col-sm-3 box-gray p-5 text-center m-2 shadow-sm" > 
+          <fa-icon [icon]="faHammer" size="3x"></fa-icon>
+          <p class="mt-3" > Pavimentos</p>
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+
+        
+
+    </div>
+
+</div>
+
+<!-- Thrid Content -->
+<div class="container-fluid" class="bg-color">
+  
+  <!-- PPR -->
+  <div class="row justify-content-center align-items-center pt-5">
+  
+    <div class="col-md-4 text-center p-5">
+      <div class="image_can text-center"></div>
+    </div>
+
+    <div class="col-md-5 text-left  p-5">
+      <div>
+        <h2 style="color: black;"> PINTURAS </h2>
+      </div>
+      <div>
+        A melhor altura do ano para pintar o exterior de uma casa é quando o tempo está seco e com pouca humidade. Geralmente, aproveita-se os meses de verão e o período de férias que é quando existe mais tempo livre. As pinturas no exterior, são uma cara nova ao seu idificio.      </div>
+    </div>
+
+  </div>
+
+  <!-- AçoInox -->
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-md-5 text-left  p-5 d-none d-sm-block">
+      <div>
+        <h2 style="color: black;"> Telas Asfalticas </h2>
+      </div>
+      <div>
+        O segundo material mais utilizado pelos nossos profissionais, passa pela tubagem Aço Inoxidavel. Da mesma forma, o tubo aço-inoxidavel serve para distribuição de água fria e quente  formada por tubo copolímero random série 1/2, entre 15mm e 22 mm de diâmetro interior. Sendo maioritariamente colocado superficialmente no interior dos edifícios. Os nossos trabalhos, incluid todos os material auxiliar apropriados para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+      </div>
+    </div>
+
+    <div class="col-md-4 text-center p-5">
+      <div class="image_aco text-center"></div>
+    </div>
+
+    <div class="col-md-5 text-left  p-5 d-block d-sm-none ">
+      <div>
+        <h2 style="color: black;"> Tubagem Aço-Inox </h2>
+      </div>
+      <div>
+        O segundo material mais utilizado pelos nossos profissionais, passa pela tubagem Aço Inoxidavel. Da mesma forma, o tubo aço-inoxidavel serve para distribuição de água fria e quente  formada por tubo copolímero random série 1/2, entre 15mm e 22 mm de diâmetro interior. Sendo maioritariamente colocado superficialmente no interior dos edifícios. Os nossos trabalhos, incluid todos os material auxiliar apropriados para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Four Content -->
+<div class="container-fluid pt-5 mt-5 mb-5">
+
+  <div class="row justify-content-center mb-5 ">
+    <ngb-carousel *ngIf="images" class="mobile-row "  >
+      <ng-template ngbSlide >
+        <div class="picsum-img-wrapper">
+          <img  [src]="images[0]" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>1500m de TUBO PP-R</h3>
+          <p>Obra em espinho concluida, com mais de 1500m de tubo PPR intalados em 7 predios. </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Hidronil 1''</h3>
+          <p>Novas intalações de contadores de agua, com tubagem hidronil.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Multicamada</h3>
+          <p>Substituição de tubagem em ferro, para multi cadama no interior de uma casa de banho.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <div class="row justify-content-center pt-4"> 
+
+    <div class="col-12 text-center mb-3" style="opacity: 0.89">
+      <h2> Deseja um Orçamento Gratuito ?</h2>
+    </div>
+
+    <div class="col-12 text-center">
+      <button>
+        <a href="/orcamento">
+          Contactar Agora
+        </a>
+      </button>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Last Layer -->
+<div class="container-fluid  bg-other pt-5 pb-5">
+
+  <div class="row justify-content-center p-4 "> 
+
+    <div class="col-md-11 text-center">
+      <p style="color: #29aae3;"> NA DECCER TAMBÉM PODE ENCONTRAR</p>
+      <h1 class="mb-5">
+        Mais trabalhos Realizados
+      </h1>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-rad p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" ><a href="/servico/canalizacoes"> CANALIZAÇÕES</a>  </p>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-inc p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > <a href="/servico/telhados"> TELAS </a>  </p>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-rega p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > SIS. REGA </p>
+    </div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+  </div>
+
+</div>
+
+
+<!-- Footer -->
+  <app-footer></app-footer>
+<!-- Footer -->

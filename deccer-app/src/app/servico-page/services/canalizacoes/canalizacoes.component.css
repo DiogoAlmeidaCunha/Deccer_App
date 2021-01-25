@@ -11,7 +11,7 @@ a,li{
 .bg {   
         
       /* The image used */
-      background-image: url("../../../../assets/contblack.jpg");
+      background-image: url("../../../../assets/ppr3.jpg");
       /*background-color: #4156e3;*/
       /* Full height */
       height: 100%;
@@ -121,6 +121,32 @@ h2{
     background-size: cover;
     transition: all .2s ease-in-out;
 } .box-rega:hover{
+    transform: scale(1.1);
+}
+
+.box-esgotos{
+    background-image:url(../../../../assets/esgotos.jpg);
+    opacity: 0.9;
+    border-radius: 4px;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+} .box-esgotos:hover{
+    transform: scale(1.1);
+}
+
+.box-desentope{
+    background-image:url(../../../../assets/banca.jpg);
+    opacity: 0.9;
+    border-radius: 4px;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+} .box-desentope:hover{
     transform: scale(1.1);
 }
 
