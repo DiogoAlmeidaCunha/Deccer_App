@@ -19,6 +19,9 @@ export class ExterioresComponent implements OnInit {
   faHammer = faHammer;
   faKaaba = faKaaba;
   
+  images = [ " ../../../../assets/slide1.jpg" , " ../../../../assets/slide2.jpg" , "../../../../assets/slide3.jpg " ] ;
+
+  
   constructor() { }
 
   ngOnInit(): void {

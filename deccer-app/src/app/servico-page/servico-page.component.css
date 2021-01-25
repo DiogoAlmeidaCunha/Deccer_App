@@ -10,7 +10,7 @@ a,li{
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg_2d.jpg");
+    background-image: url("../../assets/bg_2b.jpg");
     /*background-color: #4156e3;*/
     min-height: 600px;
     margin-top: 0%;
@@ -42,7 +42,7 @@ a,li{
 
 .bg-tel {
     /* The image used */
-    background-image: url("../../assets/s3blue.jpg");
+    background-image: url("../../assets/tel12.jpg");
     /*background-color: #4156e3;*/
     
     margin-top: 0%;
@@ -53,9 +53,9 @@ a,li{
     height: 600px;
 }
 
-.bg-fun {
+.bg-int {
     /* The image used */
-    background-image: url("../../assets/s1blue.jpg");
+    background-image: url("../../assets/interior.JPG");
     /*background-color: #4156e3;*/
     
     margin-top: 0%;
@@ -98,7 +98,7 @@ h2{
 
 
 .color-left{
-    background-color: rgb(230, 225, 225);
+    background-color: rgba(250, 247, 247, 0.953);
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
     font-style: BOLD;
     color: #363636;

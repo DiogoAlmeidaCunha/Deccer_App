@@ -29,8 +29,9 @@ import { ServicoPageComponent } from './servico-page/servico-page.component';
 import { PortofolioPageComponent } from './portofolio-page/portofolio-page.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { CanalizacoesComponent } from './servico-page/services/canalizacoes/canalizacoes.component';
-import { FunilariasComponent } from './servico-page/services/funilarias/funilarias.component';
+import { TelhadosComponent } from './servico-page/services/telhados/telhados.component';
 import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
+import { InterioresComponent } from './servico-page/services/interiores/interiores.component';
 
 
 @NgModule({
@@ -45,8 +46,9 @@ import { ExterioresComponent } from './servico-page/services/exteriores/exterior
     ServicoPageComponent,
     PortofolioPageComponent,
     CanalizacoesComponent,
-    FunilariasComponent,
+    TelhadosComponent,
     ExterioresComponent,
+    InterioresComponent,
     
   ],
   imports: [

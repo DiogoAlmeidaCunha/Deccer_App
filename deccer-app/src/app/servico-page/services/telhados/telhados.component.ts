@@ -14,10 +14,10 @@ import { faLifeRing } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-funilarias',
-  templateUrl: './funilarias.component.html',
-  styleUrls: ['./funilarias.component.css']
+  templateUrl: './telhados.component.html',
+  styleUrls: ['./telhados.component.css']
 })
-export class FunilariasComponent implements OnInit {
+export class TelhadosComponent implements OnInit {
 
   faRing = faRing;
   faPager = faPager;
@@ -27,6 +27,12 @@ export class FunilariasComponent implements OnInit {
   faWrench = faWrench;
   faLifeRing = faLifeRing;
 
+  images = [ " ../../../../assets/tel1.jpg" , 
+  " ../../../../assets/tel2.jpg" , 
+  "../../../../assets/tel3.jpg " , 
+  "../../../../assets/tel4.JPG " ] ;
+
+  
   constructor() { }
 
   ngOnInit(): void {

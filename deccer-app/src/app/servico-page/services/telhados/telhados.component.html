@@ -1,0 +1,216 @@
+
+<!-- HEADER -->
+<app-header>
+
+</app-header>
+<!-- End Header -->
+
+
+<!-- Content here -->
+<div  class="container-fluid">
+  
+  <!-- First Layout  -->
+  <div class="row  bg justify-content-center pt-5 pb-4">
+
+    <div class="col-md-5  m-5 text-center title" > 
+      <h1 class="title-text"> T E L H A D O S </h1>
+    </div>
+
+    <div class="col-md-12 text-center">
+        <button class=" mb-5"><a href="/orcamento"> Pedir Orçamento</a></button>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Second Content here-->
+<div class="container-fluid">
+   
+    <div class="row justify-content-center p-5">
+
+      <div class="col-md-2 col-sm-3  box-gray p-5 text-center m-2 shadow-sm " > 
+        <fa-icon [icon]="faRing" size="3x"></fa-icon>
+        <p class="mt-3" > Caleiras  </p>
+      </div>
+      <div class="col-md-2 col-sm-3 box-gray p-5 text-center m-2  shadow-sm" > 
+        <fa-icon [icon]="faSquare" size="3x"></fa-icon>
+        <p class="mt-3" > Guieiros </p>
+      </div>
+      <div class="col-md-2 col-sm-3 box-gray p-5 text-center m-2 shadow-sm" > 
+        <fa-icon [icon]="faPager" size="3x"></fa-icon>
+        <p class="mt-3" > Rufos </p>
+      </div>
+
+      <!-- Force next columns to break to new line -->
+      <div class="w-100"></div>
+
+      <div class="col-md-2 col-sm-3  box-gray p-5 text-center m-2 shadow-sm " > 
+        <fa-icon [icon]=" faKaaba" size="3x"></fa-icon>
+        <p class="mt-3" > Telas</p>
+      </div>
+      <div class="col-md-2 col-sm-3 box-gray p-5 text-center m-2  shadow-sm" > 
+        <fa-icon [icon]="faWrench" size="3x"></fa-icon>
+        <p class="mt-3" > Manutenções</p>
+      </div>
+      
+
+        
+
+    </div>
+
+</div>
+
+<!-- Thrid Content -->
+<div class="container-fluid" class="bg-color">
+  
+  <!-- PPR -->
+  <div class="row justify-content-center align-items-center pt-5">
+  
+    <div class="col-md-4 text-center p-5">
+      <div class="image_caleira text-center"></div>
+    </div>
+
+    <div class="col-md-5 text-left  p-5">
+      <div>
+        <h2 style="color: black;"> Caleiras</h2>
+      </div>
+      <div>
+        Fornecimento e Instalação de caleiras por parte da nossa equipa. Prestamos atenção necessaria à proteção de sua casa contra possiveis danos indesejados com a utilização de Caleiras. Com a sua intalação, reduzimos a circulação de água em sua casa. Irá reduzir problemas com humidade assim como danos na parede e pintura da casa. Com experiencia em todos os materiais disponiveis no mercado, esta ao seu criterio o que usar.
+        As Caleiras podem ser feitas em Alumínio ou Zinco, sendo o alumínio o mais comum e tendo mais de 20 cores à sua escolha.      </div>
+    </div>
+
+  </div>
+
+  <!-- AçoInox -->
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-md-5 text-left  p-5 d-none d-sm-block">
+      <div>
+        <h2 style="color: black;"> Capeamentos e Rufagens </h2>
+      </div>
+      <div>
+        O segundo material mais utilizado pelos nossos profissionais, passa pela tubagem Aço Inoxidavel. Da mesma forma, o tubo aço-inoxidavel serve para distribuição de água fria e quente  formada por tubo copolímero random série 1/2, entre 15mm e 22 mm de diâmetro interior. Sendo maioritariamente colocado superficialmente no interior dos edifícios. Os nossos trabalhos, incluid todos os material auxiliar apropriados para montagem e fixação, acessórios e peças especiais. Totalmente montada, ligada e testada.
+      </div>
+    </div>
+
+    <div class="col-md-4 text-center p-5">
+      <div class="image_rufo text-center"></div>
+    </div>
+
+    <div class="col-md-5 text-left  p-5 d-block d-sm-none ">
+      <div>
+        <h2 style="color: black;"> Capeamentos e Rufagens  </h2>
+      </div>
+      <div>
+        Outro tipo de trabalhos mais desenvolvidos pela DECCER, instalações e substituições de capeamentos, que tem como principal objetivo proteger os seus muros de danos causados pela chuva. Ao contrário da pedra, o capeamentos feito em alumínio possuem junções que permitem a dilatação do mesma, não causando fissuras que levam a infiltrações.  Protegendo assim os seus muros e paredes, sem necessitar de qualquer outro tipo de isolamento como silicone ou variados.      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Four Content -->
+<div class="container-fluid pt-5 mt-5 mb-5">
+
+  <div class="row justify-content-center mb-5 ">
+    <ngb-carousel *ngIf="images" class="mobile-row "  >
+
+      <ng-template ngbSlide >
+        <div class="picsum-img-wrapper">
+          <img  [src]="images[0]" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Rufos e Chamines</h3>
+          <p>Obra concluida com a subsituição de novas rufagens em telhado e chamines.</p>
+        </div>
+      </ng-template>
+      
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Rufos e Chamines</h3>
+          <p>Obra concluida com a subsituição de novas rufagens em telhado e chamines.</p>
+        </div>
+      </ng-template>
+      
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>500m De Chapa Lacada</h3>
+          <p>Obra em espinho concluida, com colocação de Chapa Lacada para tapagem de tubos</p>
+        </div>
+      </ng-template>
+      
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[3]" alt="Random fourth slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Guieiro Vista</h3>
+          <p>Guieiro de Vista, com colocação por debaixo de telha para melhor vedação contra humidades.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <div class="row justify-content-center pt-4"> 
+
+    <div class="col-12 text-center mb-3" style="opacity: 0.89">
+      <h2> Deseja um Orçamento Gratuito ?</h2>
+    </div>
+
+    <div class="col-12 text-center">
+      <button>
+        <a href="/orcamento">
+          Contactar Agora
+        </a>
+      </button>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Last Layer -->
+<div class="container-fluid  bg-other pt-5 pb-5">
+
+  <div class="row justify-content-center p-4 "> 
+
+    <div class="col-md-11 text-center">
+      <p style="color: #29aae3;"> NA DECCER TAMBÉM PODE ENCONTRAR</p>
+      <h1 class="mb-5">
+        Mais trabalhos Realizados
+      </h1>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-tela p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > TELAS </p>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-limpeza p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > LIMPEZAS </p>
+    </div>
+
+    <div class="col-md-2 col-sm-3  box-repara p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > REPARAÇÕES </p>
+    </div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-md-2 col-sm-3  box-funilaria p-5 text-center m-2 shadow-sm " > 
+      <p class="mt-3 text-box" > FUNILARIAS </p>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Footer -->
+  <app-footer></app-footer>
+<!-- Footer -->

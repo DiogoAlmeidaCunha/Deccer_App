@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FunilariasComponent } from './funilarias.component';
+import { FunilariasComponent } from './telhados.component';
 
 describe('FunilariasComponent', () => {
   let component: FunilariasComponent;
