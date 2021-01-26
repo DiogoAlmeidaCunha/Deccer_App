@@ -69,6 +69,11 @@ ul,li {
     margin-bottom: 1%;
 }
 
+.line{
+    line-height: initial;
+    font-weight: 700;
+}
+
 .bg4{
     /* The image used */
     background-image: url("../../assets/bg444.jpg");

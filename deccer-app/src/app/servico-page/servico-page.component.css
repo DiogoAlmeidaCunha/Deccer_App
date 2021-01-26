@@ -10,7 +10,7 @@ a,li{
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg_2b.jpg");
+    background-image: url("../../assets/bg_2d.jpg");
     /*background-color: #4156e3;*/
     min-height: 600px;
     margin-top: 0%;
@@ -98,7 +98,7 @@ h2{
 
 
 .color-left{
-    background-color: rgba(250, 247, 247, 0.953);
+    background-color: rgb(250, 247, 247);
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
     font-style: BOLD;
     color: #363636;
@@ -203,14 +203,15 @@ button{
     border-width: thin;
     font-size: 16px;
     font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
-    transition: 1s;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
 }
 button:hover{
-    transition:1s;
+    transform: scale(1.1);
     border-color: #29aae3;
     background-color: #29aae3;;
     opacity: 0.90;
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     
 }

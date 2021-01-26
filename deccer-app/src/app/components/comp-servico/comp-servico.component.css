@@ -10,6 +10,12 @@
 .s3{
     background-image: url("../../../assets/s3b.jpg");
 }
+
+.line{
+    line-height: initial;
+    font-weight: 500;
+}
+
 .comp-servico{
     border-style: black;
     

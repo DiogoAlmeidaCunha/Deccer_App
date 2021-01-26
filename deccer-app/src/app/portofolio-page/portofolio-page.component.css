@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bg_3b.jpg");
+    background-image: url("../../assets/bg_3d.jpg");
     /*background-color: #4156e3;*/
     min-height: 600px;
 
@@ -34,11 +34,6 @@
     } 
  }
 
-
-p{
-    font-family:Roboto, "Helvetica Neue", sans-serif;
-}
-
 h1{
     font-size: 46px;
     color:#29aae3;
@@ -58,12 +53,12 @@ h3{
 .list{
     font-size: 1.5vw;
     color: rgb(46, 46, 46);
-    font-family:Roboto, "Helvetica Neue", sans-serif;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
 }
 
 p{
     font-size: 16px;
-    font-family:Roboto, "Helvetica Neue", sans-serif;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
 
 }
 .open-trans{
@@ -207,26 +202,25 @@ mat-card-content{
 
 button{
     outline: none;
+    padding: 2.1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    color:white;
 
-    margin-top:2%;
-    padding: 2.4%;
-    margin-bottom: 2%;
-    color: #29aae3;
-    border-style: none;
-    border-width: thin;
-    opacity:0.78;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: 1s;
-    font-weight: bold;
-
+    background-color: #29aae3;
+    font-family:"Josefin Sans", Arial, Tahoma, sans-serif;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+    -webkit-transform: skewX(-10deg);
+        transform: skewX(-10deg);
+    border-radius: 0px;
 }
 
 
 button:hover{
-    transition:1s;
-    opacity: 0.60;
-    font-size: 1.3em;
-    color: #29aae3;
+    transform: scale(1.1);
+    -webkit-transform: skewX(10deg);
+        transform: skewX(10deg);
 }
 
 
