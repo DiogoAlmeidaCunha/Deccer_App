@@ -1,7 +1,7 @@
 
 <!-- HEADER -->
 <header >
-  
+
   <nav class="navbar navbar-expand-lg   nav-color">
       <a class="text-right" href="#">
         <img class="nav-logo text-center" src="./assets/deccer.png">
@@ -25,6 +25,9 @@
       </div>
   </nav> 
 </header>
+
+
+
 <!-- End Header -->
 
 
@@ -34,12 +37,12 @@
   <!-- First Layout  -->
   <div class="row justify-content pb-5  ">
    
-    <app-carousel-navigation class="carousel"></app-carousel-navigation> 
+    <app-carousel-navigation class="carousel" ></app-carousel-navigation> 
     
   </div>
 
   <!-- Second Layout  -->
-  <div class="container  justify-content-center text-center pt-l pb-l ">
+  <div class="container  justify-content-center text-center pt-l pb-l "  >
 
     <app-comp-servico></app-comp-servico>
 
@@ -66,7 +69,9 @@
   <!-- Thirt Layout-->
   <div class="Content row bg4 pt-l pb-l align-items-center" id="price">
     
-    <div class="col-md-12 col-xs-4  text-left text-sm-center mob-orc align-self-center orc-middle">
+    <div class="col-md-12 col-xs-4  text-left text-sm-center mob-orc align-self-center orc-middle" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"> 
       <div><h1 class="h1-w line ">ORCAMENTOS GRATUITOS</h1></div>
       <div class="text-white  m-0" > Peça o seu orçamento sem qualquer custo, com resposta em 24h</div>
       <div class="text-white  m-0 pb-3"> pela nossa equipa. Avance para saber mais...</div>
@@ -78,23 +83,24 @@
 
   </div>
 
-  <div class="Content row text-center justify-content-md-center pt-l pb-l " id="price">
+  <!-- Lista de Parceiros -->
+  <div class="Content row text-center justify-content-md-center pt-l pb-l " id="price"  data-aos-duration='2000'>
     
     <div class="col-md-12 mb-4">
       <h2 class="h2 font-weight-bold">LISTA DE PARCEIROS</h2>
     </div>
 
     <div class="row align-items-center">
-      <div class="col ">
+      <div class="col " data-aos="flip-left"  data-aos-duration='2000'>
         <img class="soft-hover" src="../../assets/AF.png" (click)="openInstagram('af')" >
       </div>
-      <div class="col">
+      <div class="col" data-aos="flip-left"  data-aos-duration='2000'>
         <img src="../../assets/PEIXO.jpg">
       </div>
-      <div class="col">
+      <div class="col" data-aos="flip-left"  data-aos-duration='2000'>
         <img src="../../assets/vis.jpg">
       </div>
-      <div class="col ">
+      <div class="col " data-aos="flip-left"  data-aos-duration='2000'>
         
         <img class="soft-hover" (click)="openInstagram('jun')" src="../../assets/ave.jpg"> 
       </div>
@@ -117,6 +123,10 @@
 
 </div>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 <!-- Footer -->
   <app-footer></app-footer>

@@ -1,22 +1,35 @@
+
+
 <ngb-carousel class="ngb-carousel" *ngIf="images">
 
   <ng-template  ngbSlide>
     <div class="picsum-img-wrapper">
       <img class="bg" src="../../assets/bg_2d.jpg" alt="Random first slide">
     </div>
+
+    <!-- Mobile -->
     <div class=" carousel-caption  d-block d-sm-none  "  style="margin-bottom:20%; ">
-      <img  class="mb-5 open-trans1" src="../../assets/deccer.png" >
+
+      <img  class="mb-5 " src="../../assets/deccer.png" >
       <h1 class="open-trans2"> AGILIDADE</h1>
       <h1 class="open-trans2"> INOVAÇÃO</h1>
 
-      <p class="text-justify open-trans3 p-2">A vivacidade em tudo o que fazemos, com a motivação necessaria à procura de soluções </p>
-      <button class="mt-4 btn-orc" ><a href="/orcamento"> Contactar  </a></button>
+
+      <p class="text-justify  p-2">A vivacidade em tudo o que fazemos, com a motivação necessaria à procura de soluções </p>
+      
+      <button class="mt-4 " ><a href="/orcamento"> Contactar  </a></button>
+    
     </div>
 
-    <div class="carousel-caption open-trans1 d-none d-sm-block ">
-      <h1>AGILIDADE E INOVAÇÃO</h1>
-      <p>A vivacidade em tudo o que fazemos, com a motivação necessaria à procura de soluções </p>
-      <button class="mt-4 btn-orc open-trans2" ><a href="/orcamento"> Contactar  </a></button>
+    <!-- Web -->
+    <div class="carousel-caption  d-none d-sm-block  ">
+
+      <h1 class="" data-aos="fade-down" data-aos-duration="1000" >AGILIDADE E INOVAÇÃO</h1>
+
+      <p data-aos="fade-down" data-aos-duration="1000">A vivacidade em tudo o que fazemos, com a motivação necessaria à procura de soluções </p>
+
+      <button class="mt-4 btn-orc " data-aos-duration="1900" ><a href="/orcamento"> Contactar  </a></button>
+
     </div>
 
   </ng-template>

@@ -33,6 +33,9 @@ import { TelhadosComponent } from './servico-page/services/telhados/telhados.com
 import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
 import { InterioresComponent } from './servico-page/services/interiores/interiores.component';
 
+import AOS from 'aos';
+AOS.init();
+
 
 @NgModule({
   declarations: [
