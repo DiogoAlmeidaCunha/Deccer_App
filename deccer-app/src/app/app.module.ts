@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { FormsModule} from '@angular/forms'
+
+import { HttpClientModule } from '@angular/common/http'
 
 /* ALL NEW IMPORTS - FROM WEB MODULE */
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
@@ -74,8 +77,8 @@ AOS.init();
     NgbModule,
     FontAwesomeModule,
     MatDialogModule,
-    
-    
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,8 +7,5 @@
         ]
       }
     }
-  },
-  "projects": {
-    "default": "deccer-22b5a"
   }
 }

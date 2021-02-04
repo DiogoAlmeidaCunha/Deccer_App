@@ -16,8 +16,6 @@ export class CarouselNavigationComponent implements OnInit {
   'https://images7.alphacoders.com/927/927657.jpg'
   ];
 
-  //images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
     config.interval = 7000;

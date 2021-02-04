@@ -7,7 +7,6 @@ import { PortofolioPageComponent } from './portofolio-page/portofolio-page.compo
 import { CanalizacoesComponent } from './servico-page/services/canalizacoes/canalizacoes.component';
 import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
 import { TelhadosComponent } from './servico-page/services/telhados/telhados.component';
-
 import { InterioresComponent } from './servico-page/services/interiores/interiores.component';
 
 

@@ -1,6 +1,4 @@
 
-@import '~animate.css/animate.css';
-
 
 .bg {
     /* The image used */
@@ -57,25 +55,7 @@ button{
     
     
 }
-.open-trans1{
-    transition-duration: 1.0s;
-    transition-property: transform;
-    animation: createBox 6s;
-}
-.open-trans2{
-    transform: scale(0.01);
-    transition-duration: 1s;
-    transition-property: transform;
-    animation: createBox 6s;
-    animation-delay: 1s;
-}
-.open-trans3{
-    transform:  scale(0.01);
-    transition-duration: 1.50s;
-    transition-property: transform;
-    animation: createBox 6s;
-    animation-delay: 2s;
-}
+
 
 @keyframes createBox {
         from {
