@@ -1,39 +1,39 @@
-const express = require('express')
-const bodyParser = require('body-parser')
-
-const nodemailer = require('nodemailer');
-
-const app = express();
+const functions = require("firebase-functions");
+const express = require('express');
 const port = 3000;
+const app = express();
 
-app.use(bodyParser.urlencoded({extended:false})) 
+const admin = require('firebase-admin');
+admin.initializeApp();
+
+const bodyParser = require('body-parser')
+const nodemailer = require('nodemailer');
+app.use(bodyParser.urlencoded({extended:true})) 
 app.use(bodyParser.json());
-
 
 app.get('/server', (req, res) => {
 
-	console.log(" - SERVER GOT REQUEST -")
-
-	res.json({"STATUS": " 200 " , "MESSAGE" : "Hello Deccer!"});
+	console.log(" - SERVER Firebase: REQUEST - ");
+	res.json('Welcome to Firebase Server');
 
 })
 
 app.get('/server/names', (req, res) => {
 
-	console.log(" - SERVER GOT REQUEST -")
-
-	res.json([{"NAME": " DIOGO "} , {"NAME" : "TATI"} ]);
+	console.log(" - Names ON Firebase: REQUEST - ");
+	res.json('Names ON Firebase: REQUEST ');
 
 })
 
 app.post('/server/sendemail',  (req, res) => {
   
-
 	var name = req.body.name;
 	var tel = req.body.telemovel;
 	var morada = req.body.morada;
 	var email = req.body.email;
 	var mensagem = req.body.mensagem;
+
+  console.log("Request body: " + req.body);
 
 	console.log("Name: " + name);
 
@@ -56,7 +56,6 @@ app.post('/server/sendemail',  (req, res) => {
 
 
   transporter.sendMail( msg, (error,info) => {
-
   	console.log('Message sent');
 
   } );
@@ -65,21 +64,8 @@ app.post('/server/sendemail',  (req, res) => {
   res.send('Email sent!')
 })
 
-//sendemail/andre/9131231231/andre@gmail.com/para%20aqui%20esta%20tudo%20mesmo%20mal%20nao%20sei%20o%20qee%20fazer
-
 app.listen(port, (req,res) => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at http://localhost:${port}`);
 })
 
-//exports.app = functions.https.onRequest(app);
-
-
-/*
-{
-    "name": "Maria do Carmo",
-    "telemovel": 91231232,
-    "morada": "Rua santa luzia", 
-    "email" : "maria@gmail.com",
-    "mensagem": "Boa tarde Sr. Diogo, solicito um orçamento para pintura de casa total. Morada é X e m2 sao 44. Beijinhos"
-}
-*/
+exports.app = functions.https.onRequest(app);

@@ -38,13 +38,20 @@ export class OrcamentoPageComponent implements OnInit {
     }, (error) => { console.log("ERROR: " , error)})
   }
 
+  sendEmail(){
+    this.service.sendEmail(this.name , this.phone, this.street, this.email, this.message).subscribe((response) =>{
+      console.log('Response from API  is ' + JSON.stringify(response) );
+    }, (error) => { console.log("ERROR: " , error) })
+
+    return;
+  }
+
   sendMessage(){
 
-    console.log(this.getNames());
+    this.sendEmail();
+    window.alert("Orçamento solicitado. Entramos em contacto nas proximas 24h.")
+    location.reload();
 
-    window.alert("Envio Indesponivel! \n\nContacto : 913868569\nEmail : geral.deccer@gmail.com ")
-
-    console.log("Name: " + this.name + "\nPhone: " + this.phone + "\nEmail: " + this.email + "\nMorada: " + this.street + " \nMessage: " + this.message);
   }
 
   
