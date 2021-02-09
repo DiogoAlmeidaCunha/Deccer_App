@@ -2,6 +2,7 @@ const functions = require("firebase-functions");
 const express = require('express');
 const port = 3000;
 const app = express();
+const google = require('googleapis')
 
 const admin = require('firebase-admin');
 admin.initializeApp();
@@ -38,17 +39,27 @@ app.post('/server/sendemail',  (req, res) => {
   console.log("----------------");
 	console.log("Name: " + name);
 
-  // create reusable transporter object using the default SMTP transport
+  const CLIENTID = '156429563917-g3lv3suevtm4kcc5pqmoh8j7meoos429.apps.googleusercontent.com';
+  const CLIENTSECRET = 'zUluVvZV9BvWGW20b-ggGeU4';
+  const REFRESH_T = '1//04Cv471m6PMhiCgYIARAAGAQSNwF-L9IrWYN_o3d4Gz6-hwDmHP0AMs_kEzO6Xfa15Gp-cL_90VfJJ_kCBVmhl7E1kALq1_uBlt0';
+  const ACCESS_T = 'ya29.A0AfH6SMCmQyN1wqjKp82ZkGHXhG427lvM5f-Q-U0Wi2jBnMOUuDf_mgrWuI9AamDz4zurEuzwTt9S5nfnFjyI11HK7NZwRAwGv-QNtwrPdXz5JUZJlwgmYEf5JTFyEYEfPH3TldSzqvdf40OLBKRNaUsDDaW2'
+  /*const aAuth2 = new google.auth.OAuth2(CLIENTID,CLIENTSECRET,REDIRECTURL);
+  aAuth2.setCredentials({refresh_token: REFRESH_T})*/
+  //const accessToken =  aAuth2.setCredentials();
+
+  
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      type: 'OAuth2',
-      user: 'diogocunha588@gmail.com',
-      clientId: '156429563917-9tj45ijqcddl5cg0bpq5e26fhf2kcljr.apps.googleusercontent.com',
-      clientSecret: 'dbXO4wLdmRouyuZWhlcD2lrC',
-      refrehToken: '1//04JhUWAmRFBwDCgYIARAAGAQSNwF-L9IrtcA0mE-LOCydtuD95p9ssc53RbB7Y1aQl07wa5VTcSAWOYE7QXcEJDLp8_sVcPWUKBg',
-      accessToken: 'ya29.A0AfH6SMAc-mn8B89IUcev9gg14Dnb5n_DJNvOcwcsyY9Wa2NIU0mG2P0WxmziDzjzwTh8h5gfom3f0sfYZ1ZAzCfWJlJNqTXMtEHA4ijbEfInlg1A5vUi57pTQyxKBG9MTZu6AVmptpNJmCh8QqeCiN7MMHYc',
-    }
+        type: 'OAuth2',
+        user: 'diogocunha588@gmail.com',
+        pass: 'dac_Diogo588',
+        clientId: CLIENTID,
+        clientSecret: CLIENTSECRET,
+        refreshToken: REFRESH_T,
+        accessToken: ACCESS_T,
+        timeout:'9999999999'
+    },
 
   });
 

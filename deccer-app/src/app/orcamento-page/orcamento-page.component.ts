@@ -50,7 +50,7 @@ export class OrcamentoPageComponent implements OnInit {
 
     this.sendEmail();
     window.alert("Orçamento solicitado. Entramos em contacto nas proximas 24h.")
-    location.reload();
+    window.location.reload(true);
 
   }
 
