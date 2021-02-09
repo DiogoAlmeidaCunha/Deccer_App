@@ -3,9 +3,6 @@
         "target"  : "https://us-central1-deccer-22b5a.cloudfunctions.net/app/",
         "secure": false,
         "logLevel": "debug",
-        "changeOrigin": true,
-        "pathRewrite": {
-            "^/server": ""
-        }
+        "changeOrigin": true
     } 
 }
