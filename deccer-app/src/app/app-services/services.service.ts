@@ -27,7 +27,8 @@ export class ServicesService {
       "morada" : morada, 
       "email" : email, 
       "mensagem" : mensagem
-    });
+    },
+    {responseType: 'text'});
 
   }
 }
