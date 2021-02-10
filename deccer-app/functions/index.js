@@ -3,6 +3,8 @@ const express = require('express');
 const port = 3000;
 const app = express();
 const google = require('googleapis')
+var cors = require('cors');
+
 
 const admin = require('firebase-admin');
 admin.initializeApp();
@@ -13,6 +15,9 @@ const nodemailer = require('nodemailer');
 //const { response } = require("express");
 app.use(bodyParser.urlencoded({extended:true})) 
 app.use(bodyParser.json());
+
+app.use(cors());
+
 
 app.get('/server', (req, res) => {
 

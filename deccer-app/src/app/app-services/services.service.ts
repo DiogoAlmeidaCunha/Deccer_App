@@ -10,16 +10,18 @@ export class ServicesService {
   constructor(private http : HttpClient) { }
 
   getServer(){
-    return this.http.get('/server');
+    return this.http.get('https://us-central1-deccer-22b5a.cloudfunctions.net/app/server/');
   }
 
   getNames(){
-    return this.http.get('/server/names');
+    return this.http.get('https://us-central1-deccer-22b5a.cloudfunctions.net/app/server/names');
   }
 
   sendEmail(name,telemovel,morada,email,mensagem){
 
-    return this.http.post('/server/sendemail', {
+    console.log("Inside Services : Ask server to send e-mail...")
+
+    return this.http.post('https://us-central1-deccer-22b5a.cloudfunctions.net/app/server/sendemail', {
       "name" : name, 
       "telemovel": telemovel, 
       "morada" : morada, 

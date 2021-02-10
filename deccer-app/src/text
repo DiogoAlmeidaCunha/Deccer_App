@@ -75,3 +75,13 @@ app.listen(port, (req,res) => {
 })
 
 exports.app = functions.https.onRequest(app);
+
+
+{
+    "/server/*" : {
+        "target"  : "https://us-central1-deccer-22b5a.cloudfunctions.net/app/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    } 
+}
