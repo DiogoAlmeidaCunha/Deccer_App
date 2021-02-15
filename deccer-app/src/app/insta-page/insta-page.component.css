@@ -1,0 +1,233 @@
+
+.bg {
+    /* The image used */
+    background-image: linear-gradient(to bottom right, #1c5f7c , #92d2eb);
+        /*background-color: #4156e3;*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+
+}
+
+::ng-deep.mat-form-field.mat-focused .mat-form-field-ripple{
+    background-color:#29aae3 ;
+}
+
+h1{
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    font-family: Clan,sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    color:#29aae3;
+}
+
+a{
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+}
+
+.list{
+    color:white;
+    font-size: 15px;
+}
+p{
+    color:white;
+    font-size: 15px;
+}
+
+.list{
+    font-size: 1.5vw;
+    color: rgb(46, 46, 46);
+    font-family:  sans-serif
+}
+
+.box-blue{
+    margin-top:4%;
+    margin-bottom: 4%;
+    background-color:#29aae3;
+    opacity: 0.95;
+}
+
+mat-form-field,mat-label,input,mat-icon,mat-hint{
+    color: white;
+}
+
+.box-dark{    
+    margin-top:20%;
+    margin-bottom: 20%;
+    box-shadow: 2px 2px 20px -1px rgba(32, 32, 32, 0.563);
+
+    background-color:#212222;
+    opacity: 0.96;
+    
+}
+
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    animation: createBox 2s;
+}
+
+@keyframes createBox {
+        from {
+          transform: scale(0.60);
+        }
+        to {
+          transform: scale(1);
+    }
+}
+
+.slide {
+    right: -3000px;
+    -webkit-animation: slide 0.2s forwards;
+    -webkit-animation-delay: 0.9s;
+    animation: slide 1s forwards;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right:0; }
+}
+
+.pt-8{
+    padding-top:8%;
+}
+
+.mb-l{
+    margin-bottom: 6%;
+}
+
+
+button{
+    outline: none;
+
+    margin-top:0%;
+
+    padding: 2.4%;
+    margin-bottom: 2%;
+    background-color: #29aae3;
+    color: white;
+    border-style: none;
+    border-width: thin;
+    opacity:0.78;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
+    transition: 1s;
+}
+
+
+button:hover{
+    transition:1s;
+    border-color: #29aae3;
+    background-color: #29aae3;;
+    opacity: 0.99;
+    font-size: 1.3em;
+    color: white;
+}
+
+.box-white{
+    background-color: white; opacity: 0.7;
+}
+
+.box-black{
+    background-color: rgb(32, 32, 32); opacity: 0.88;
+    box-shadow: 5px 10px #29aae3;
+
+  
+
+    animation: flip;
+}
+
+
+  
+.flipper1 {
+-webkit-animation-name: flip;
+        animation-name: flip;
+-webkit-animation-duration: 1.6s;
+        animation-duration: 1.6s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+        
+}
+
+.flipper2 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 3.7s;
+            animation-delay: 3.7s;
+    }
+
+.flipper3 {
+    -webkit-animation-name: flip;
+            animation-name: flip;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-delay: 4.8s;
+            animation-delay: 4.8s;
+    }
+
+@-webkit-keyframes flip {
+    from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+  }
+  
+@keyframes flip {
+from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
+to { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+}
+
+
+.box-black:hover{
+    background-color: #29aae3;
+}
+
+#contact1{
+    font-size: 18px;
+    color: white;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#contact2{
+    font-size: 18px;
+    color: white;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 760px){
+    h1,h2{font-size:27px}
+    p{ font-size:  12px;}
+    
+    .serv{
+        max-height: 240px;
+    }
+
+    #contact1{
+        font-size: 11px;
+        color: white;
+    }
+
+    #contact2{
+        font-size: 12px;
+        color: white;
+    }
+}

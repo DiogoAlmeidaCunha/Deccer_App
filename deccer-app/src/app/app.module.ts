@@ -35,6 +35,8 @@ import { CanalizacoesComponent } from './servico-page/services/canalizacoes/cana
 import { TelhadosComponent } from './servico-page/services/telhados/telhados.component';
 import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
 import { InterioresComponent } from './servico-page/services/interiores/interiores.component';
+import { InstaPageComponent } from './insta-page/insta-page.component'
+
 
 import AOS from 'aos';
 AOS.init();
@@ -55,6 +57,7 @@ AOS.init();
     TelhadosComponent,
     ExterioresComponent,
     InterioresComponent,
+    InstaPageComponent
     
   ],
   imports: [

@@ -8,7 +8,7 @@ import { CanalizacoesComponent } from './servico-page/services/canalizacoes/cana
 import { ExterioresComponent } from './servico-page/services/exteriores/exteriores.component';
 import { TelhadosComponent } from './servico-page/services/telhados/telhados.component';
 import { InterioresComponent } from './servico-page/services/interiores/interiores.component';
-
+import { InstaPageComponent } from './insta-page/insta-page.component'
 
 
 
@@ -21,6 +21,8 @@ const routes: Routes = [
   { path: 'servico/telhados', component: TelhadosComponent},
   { path: 'servico/interiores', component: InterioresComponent},
   { path: 'portofolio' , component: PortofolioPageComponent},
+  { path: 'instagram' , component: InstaPageComponent},
+
 ];
 
 @NgModule({
