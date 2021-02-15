@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'servico/telhados', component: TelhadosComponent},
   { path: 'servico/interiores', component: InterioresComponent},
   { path: 'portofolio' , component: PortofolioPageComponent},
-  { path: 'instagram' , component: InstaPageComponent},
+  { path: 'instagram' , component: InstaPageComponent}
 
 ];
 

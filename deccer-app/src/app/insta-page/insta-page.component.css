@@ -11,6 +11,17 @@
 
 }
 
+.bg2 {
+    /* The image used */
+    background-image: url("../../assets/tel11.jpg");
+        /*background-color: #4156e3;*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 ::ng-deep.mat-form-field.mat-focused .mat-form-field-ripple{
     background-color:#29aae3 ;
 }
